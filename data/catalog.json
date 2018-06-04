@@ -1,0 +1,10 @@
+{
+	"list":[
+		{
+			"classfiy": "linux",
+			"title": "centos 安装 Nginx",
+			"file":"installNginxOnCentos.md",
+			"time": "2018-06-05"
+		}
+	]	
+}

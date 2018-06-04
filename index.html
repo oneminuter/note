@@ -15,26 +15,39 @@
 	<meta charset="utf-8">
 	<title>oneminuter</title>
 	<script type="text/javascript">
-		// (function(){
-		// 	//动态加载css,防止浏览器缓存
-		// 	var styles = ['css/index.css'];
-		// 	for (var i = 0; i < styles.length; i++) {
-		// 		link = document.createElement("link");
-		// 		link.rel = "stylesheet";
-		// 		link.type = "text/css"
-		// 		link.href = styles[i] + "?" + (new Date()).valueOf();
-		// 		document.head.appendChild(link);
-		// 	}
-		// })()
+		(function(){
+			//动态加载css,防止浏览器缓存
+			var styles = ['css/index.css'];
+			for (var i = 0; i < styles.length; i++) {
+				link = document.createElement("link");
+				link.rel = "stylesheet";
+				link.type = "text/css"
+				link.href = styles[i] + "?" + (new Date()).valueOf();
+				document.head.appendChild(link);
+			}
+		})()
 	</script>
 </head>
 <body>
 	<section class="container">
-		
+		<ul>
+			<!-- <li>
+				<a href="javascript:;">centos 安装 nginx</a>
+				<label>linux</label>
+				<span>2018-06-05</span>
+			</li> -->
+		</ul>
+	</section>
+	
+	<section class="content">
+		<a href="javascript:;" class="close"></a>
+		<div class="context"></div>
 	</section>
 
 
+
 	<script type="text/javascript" src="js/marked.min.js"></script>
+	<script type="text/javascript" src="js/util.js"></script>
 	<script type="text/javascript">
 		(function(){
 			//动态加载js，防止浏览器缓存
@@ -48,7 +61,7 @@
 			}
 		})()
 
-		document.querySelector(".container").innerHTML = marked('# Marked in the browser\n\nRendered by **marked**.');
+		// document.querySelector(".container").innerHTML = marked('# Marked in the browser\n\nRendered by **marked**.');
 	</script>
 </body>
 </html>

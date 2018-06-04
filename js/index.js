@@ -1,96 +1,68 @@
-var page = {
-	//格式化时间
-    formatDate: function(timestamp) {
-        t = new Date(parseInt(timestamp));
-        y = t.getFullYear();
-        m = t.getMonth() + 1;
-        d = t.getDate();
-
-        h = t.getHours();
-        min = t.getMinutes();
-        s = t.getSeconds();
-
-        return y + "/" + m + "/" + d + " " + h + ":" + min;
-    },
-
-    /* ajax 请求
-    	obj{
-    		url: "",					//请求url
-    		method: "",					//请求方式 get、post
-    		header: {},					//请求头
-    		data: {},					//请求参数
-    		success: function(resp){},	//请求成功回调
-    		error: function(err){}		//请求错误回调
-    	}
-    */
-    ajax: function(obj) {
-            var xhr = null;
-            if (window.XMLHttpRequest) {
-                // code for IE7+, Firefox, Chrome, Opera, Safari 
-                xhr = new XMLHttpRequest();
-            } else { // code for IE6, IE5 
-                xhr = new ActiveXObject("Microsoft.XMLHTTP");
-            }
-            xhr.withCredentials = true;
-
-            xhr.addEventListener("readystatechange", function() {
-                if (4 == this.readyState) {
-                    if (200 == this.status) {
-                        var response = JSON.parse(this.responseText);
-                        obj.success(response);
-                    } else {
-                        obj.error(err)
-                    }
-                }
-            });
-
-            //判断请求方式 obj.method ，默认使用get方法
-            if (obj.method.toLowerCase() == "post") {
-                xhr.open(obj.method, obj.url, true);
-                //设置header
-                if (obj.header != null || obj.header != "" || obj.header != "undefined") {
-                    for (var key in obj.header) {
-                        xhr.setRequestHeader(key, obj.header[key]);
-                    }
-                }
-                xhr.send(obj.data);
-
-                //处理结束返回
-                return;
-            }
-
-            // get方式
-            //拼接参数
-            var reqData = "";
-            for (var key in obj.data) {
-                reqData += "&" + key + "=" + obj.data[key];
-            }
-            //去掉第一个&
-            if (reqData.length > 1) {
-                reqData = reqData.slice(1);
-
-                obj.url = obj.url + "?" + reqData;
-            }
-
-            xhr.open(obj.method, obj.url, true);
-            //设置header
-            if (obj.header != null || obj.header != "" || obj.header != "undefined") {
-                for (var key in obj.header) {
-                    xhr.setRequestHeader(key, obj.header[key]);
-                }
-            }
-
-            xhr.send();
-        },
-        
-
-        //设置sessionStorage
-        setSessionStorage: function(key, value) {
-            sessionStorage.setItem(key,value);
-        },
-
-        //获取sessionStorage
-        getSessionStorage: function(key) {
-            return sessionStorage.getItem(key);
-        }
-}
+(function(){
+	let data = {
+		host: "",
+		dataPath: "/data/", //数据文件存放目录
+		reqUrl: {
+			catalog: "catalog.json",
+		},
+	};
+	let page = {
+		controller: function(){
+			//获取目录
+			page.getCatalog();
+			page.bind();
+		},
+		bind: function(){
+			document.querySelector(".content .close").onclick = function(){
+				document.querySelector(".content").classList.remove("show");
+			}
+		},
+		//获取目录数据
+		getCatalog: function(){
+			util.ajax({
+				url: data.dataPath + data.reqUrl.catalog,
+				method: "get",
+				success: function(data){
+					page.renderCatalog(data.list);
+				},
+				error: function(err){
+					console.log(err);
+				}
+			});
+		},
+		//渲染目录
+		renderCatalog: function(data) {
+			for(let i = 0; i < data.length; i++) {
+				let li = document.createElement("li");
+				li.onclick = function() {
+					page.getNoteMD(data[i].file);
+				}
+				li.innerHTML = ['<a href="javascript:;">' + data[i].title + '</a>',
+								'<label>' + data[i].classfiy + '</label>',
+								'<span>' + data[i].time + '</span>'].join("");
+				document.querySelector(".container ul").appendChild(li);
+			}
+		},
+		//获取md数据
+		getNoteMD: function(file){
+			console.log(data.dataPath + file)
+			util.getMDFile({
+				url: data.dataPath + file,
+				method: "get",
+				success: function(data){
+					page.renderContent(data);
+				},
+				error: function(err){
+					console.log(err);
+				}
+			});
+		},
+		//渲染内容
+		renderContent: function(text) {
+			let content = document.querySelector(".content");
+			content.querySelector(".context").innerHTML = marked(text);
+			content.classList.add("show");
+		},
+	};
+	page.controller();
+})()
