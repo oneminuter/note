@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- 设置浏览器优先使用什么模式来渲染页面 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<!-- 浏览器内核控制, 多核浏览器选用什么内核渲染 -->
+	<meta name="renderer" content="webkit">
+	<!-- 不缓存页面,禁止浏览器从本地计算机的缓存中访问页面内容 -->
+	<meta http-equiv="pragma" content="no-cache">
+	<!-- no-cache指示请求或响应消息不能缓存 -->
+	<meta http-equiv="cache-control" content="no-cache">
+	<!-- 设定网页的到期时间 -->
+	<meta http-equiv="expires" content="-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 user-scalable=no">
+	<meta charset="utf-8">
+	<title>oneminuter</title>
+	<script type="text/javascript">
+		// (function(){
+		// 	//动态加载css,防止浏览器缓存
+		// 	var styles = ['css/index.css'];
+		// 	for (var i = 0; i < styles.length; i++) {
+		// 		link = document.createElement("link");
+		// 		link.rel = "stylesheet";
+		// 		link.type = "text/css"
+		// 		link.href = styles[i] + "?" + (new Date()).valueOf();
+		// 		document.head.appendChild(link);
+		// 	}
+		// })()
+	</script>
+</head>
+<body>
+	<section class="container">
+		
+	</section>
+
+
+	<script type="text/javascript" src="js/marked.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+			//动态加载js，防止浏览器缓存
+			var scriptScrs = ['js/index.js'];
+			var script = null;
+			for (var i = 0; i < scriptScrs.length; i++) {
+				script = document.createElement("script");
+				script.type = "text/javascript";
+				script.src = scriptScrs[i] + "?" + (new Date()).valueOf();
+				document.body.appendChild(script);
+			}
+		})()
+
+		document.querySelector(".container").innerHTML = marked('# Marked in the browser\n\nRendered by **marked**.');
+	</script>
+</body>
+</html>
