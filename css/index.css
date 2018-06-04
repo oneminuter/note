@@ -41,6 +41,8 @@ img{
     color: #9E9E9E;
 }
 .content{
+	max-width: 1000px;
+	margin: 0 auto;
 	position: fixed;
 	width: 100%;
 	height: 100%;
