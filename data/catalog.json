@@ -11,6 +11,12 @@
 			"title": "centos 7 里恢复 window 引导",
 			"file":"recoverWinGuideInCentos.md",
 			"time": "2018-06-05"
+		},
+		{
+			"classfiy": "linux",
+			"title": "centos 7 firewall 开启端口",
+			"file":"openPort.md",
+			"time": "2018-06-05"
 		}
 	]	
 }
