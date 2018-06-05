@@ -25,6 +25,9 @@ img{
 .container,.content{
 	padding: 40px 16px;
 }
+.container ul li{
+	margin-bottom: 5px;
+}
 .container ul li a{
 	text-decoration: underline;
 }
