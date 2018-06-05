@@ -2,7 +2,7 @@
 
 假定您已经从源代码成功构建 Nginx，并且其二进制文件和配置文件都位于 /usr/local/nginx
 
-## 获取并解压 PHP 源代码 [http://php.net/downloads.php](下载)
+## 获取并解压 PHP 源代码 [下载](http://php.net/downloads.php)
 ```shell
 tar zxf php-x.x.x
 ```
