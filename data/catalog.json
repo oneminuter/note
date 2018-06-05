@@ -5,6 +5,12 @@
 			"title": "centos 安装 Nginx",
 			"file":"installNginxOnCentos.md",
 			"time": "2018-06-05"
+		},
+		{
+			"classfiy": "linux",
+			"title": "centos 7 里恢复 window 引导",
+			"file":"recoverWinGuideInCentos.md",
+			"time": "2018-06-05"
 		}
 	]	
 }
