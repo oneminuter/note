@@ -99,6 +99,6 @@ rm /usr/local/nginx/html/index.html
 echo "<?php phpinfo(); ?>" >> /usr/local/nginx/html/index.php
 ```
 
-打开浏览器，访问 http://localhost，将会显示 phpinfo() 
+打开浏览器，访问 http:\/\/localhost，将会显示 phpinfo() 
 
 更多可用的选项， 请在对应的源代码目录执行 ./configure --help 来查阅更多配置选项
