@@ -1,4 +1,4 @@
-## [note for oneminuter](http://blog.oneminuter.com)
+## [Note for oneminuter](http://blog.oneminuter.com)
 
 ### Markdown
 
