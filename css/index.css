@@ -67,7 +67,9 @@ img{
 }
 .close{
 	display: block;
-	float: left;
+	position: fixed;
+	top: 10px;
+    left: 5px;
 	width: 24px;
 	height: 24px;
 	-webkit-transform: rotate(45deg) scale(0);
