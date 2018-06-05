@@ -114,6 +114,19 @@ var util = {
                 }
             });
 
+            // get方式
+            //拼接参数
+            var reqData = "";
+            for (var key in obj.data) {
+                reqData += "&" + key + "=" + obj.data[key];
+            }
+            //去掉第一个&
+            if (reqData.length > 1) {
+                reqData = reqData.slice(1);
+
+                obj.url = obj.url + "?" + reqData;
+            }
+
             xhr.open(obj.method, obj.url, true);
             xhr.send();
         }

@@ -45,10 +45,12 @@
 		},
 		//获取md数据
 		getNoteMD: function(file){
-			console.log(data.dataPath + file)
 			util.getMDFile({
 				url: data.dataPath + file,
 				method: "get",
+				data: {
+					time: new Date().valueOf()
+				},
 				success: function(data){
 					page.renderContent(data);
 				},
