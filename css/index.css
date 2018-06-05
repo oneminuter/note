@@ -23,7 +23,7 @@ img{
 	height: auto;
 }
 .container,.content{
-	padding: 40px 16px;
+	padding: 10px 16px 40px;
 }
 .container ul li{
 	margin-bottom: 5px;
@@ -67,11 +67,9 @@ img{
 }
 .close{
 	display: block;
+	float: left;
 	width: 24px;
 	height: 24px;
-	position: fixed;
-	top: 10px;
-	right: 973px;
 	-webkit-transform: rotate(45deg) scale(0);
 	transform: rotate(45deg) scale(0);
 	border-radius:  50%;
