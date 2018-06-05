@@ -1,7 +1,7 @@
 # centos 安装 Nginx
 
 ## gcc 安装
-```
+```shell
 yum install gcc-c++
 ```
 
@@ -21,7 +21,7 @@ yum install -y openssl openssl-devel
 ```
 
 ## 官网下载 nginx 安装包.tar.gz
-[https://nginx.org/en/download.html]
+[https://nginx.org/en/download.html](https://nginx.org/en/download.html)
 ```
 wget https://nginx.org/download/nginx-1.14.0.tar.gz
 ```
