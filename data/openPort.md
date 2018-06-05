@@ -16,6 +16,11 @@ firewall-cmd --zone=public --add-port=80/tcp --permanent
 systemctl restart firewalld.service
 ```
 
+## 关闭端口
+```shell
+firewall-cmd --zone=public --remove-port=80/tcp --permanent
+```
+
 ## 启动、 停止、 禁用 firewalld
 ```shell
 systemctl start firewalld.service
