@@ -23,6 +23,12 @@
 			"title": "centos 7 搭建nginx + php环境",
 			"file":"installPHPOnCentos.md",
 			"time": "2018-06-05"
+		},
+		{
+			"classfiy": "linux",
+			"title": "centos 7 安装mysql",
+			"file":"installMySqlOnCentos.md",
+			"time": "2018-06-05"
 		}
 	]	
 }
