@@ -50,22 +50,12 @@ mysql安装完成之后，在/var/log/mysqld.log文件中给root生成了一个�
 grep 'temporary password' /var/log/mysqld.log
 ```
 
+修改root密码
+
 ```shell
 mysql -uroot -p
 
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass4!'
-
-或者
-
-set password for 'root'@'localhost'=password('MyNewPass4!')
-```
-
-## 添加远程登录用户
-
-默认只允许root帐户在本地登录，如果要在其它机器上连接mysql，必须修改root允许远程连接，或者添加一个允许远程连接的帐户，为了安全起见，我添加一个新的帐户
-
-```shell
-GRANT ALL PRIVILEGES ON *.* TO 'yangxin'@'%' IDENTIFIED BY 'oneminuter@123!' WITH GRANT OPTION;
 ```
 
 ## 配置默认编码为utf8

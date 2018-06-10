@@ -29,6 +29,12 @@
 			"title": "centos 7 安装mysql",
 			"file":"installMySqlOnCentos.md",
 			"time": "2018-06-05"
+		},
+		{
+			"classfiy": "mysql",
+			"title": "mysql 创建用户并授权",
+			"file":"createMysqlUserAndGrant.md",
+			"time": "2018-06-05"
 		}
 	]	
 }
