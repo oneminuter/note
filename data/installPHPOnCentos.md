@@ -17,6 +17,53 @@ make
 sudo make install
 ```
 
+完整**./configure**
+```shell
+--enable-re2c-cgoto
+--enable-fpm
+--with-fpm-user=xiaolin
+--with-fpm-acl
+--with-litespeed
+--enable-phpdbg
+--enable-phpdbg-webhelper
+--enable-phpdbg-debug
+--enable-gcov
+--enable-debug
+--enable-sigchild
+--enable-dmalloc
+--enable-dtrace
+--enable-fd-setsize
+--with-system-ciphers
+--with-pcre-jit
+--enable-bcmath
+--enable-calendar
+--enable-dba
+--enable-exif
+--enable-ftp
+--enable-gd-jis-conv
+--enable-intl
+--enable-mbstring
+--enable-embedded-mysqli
+--enable-pcntl
+--enable-shmop
+--enable-soap
+--enable-sockets
+--enable-sysvmsg
+--enable-sysvsem
+--enable-sysvshm
+--enable-wddx
+--enable-zend-test
+--enable-zip
+--enable-mysqlnd
+--without-pear
+--enable-maintainer-zts
+--with-tsrm-pth=pth-config
+--with-tsrm-st
+--with-tsrm-pthreads
+--with-gnu-ld
+--with-pic
+```
+
 
 如果在 **./configure --enable-fpm --with-mysql**这步报 **configure: error: libxml2 not found. Please check your libxml2 installation.**， 执行下面命令安装 **libxml2-dev**
 ```shell
