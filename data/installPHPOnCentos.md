@@ -12,10 +12,11 @@ tar zxf php-x.x.x
 在此步骤您可以使用很多选项自定义 PHP，例如启用某些扩展等。 运行 ./configure --help 命令来获得完整的可用选项清单。 在本示例中，我们仅进行包含 PHP-FPM 和 MySQL 支持的简单配置。
 ```shell
 cd ../php-x.x.x
-./configure --enable-fpm --with-mysql
+./configure  --enable-fpm --with-fpm-user=xiaolin --with-fpm-acl --enable-debug --enable-dba --enable-exif --enable-ftp --enable-embedded-mysqli --enable-sockets --enable-sysvmsg --enable-sysvsem --enable-sysvshm --enable-zend-test --enable-zip --enable-mysqlnd --without-pear
 make
 sudo make install
 ```
+
 
 如果在 **./configure --enable-fpm --with-mysql**这步报 **configure: error: libxml2 not found. Please check your libxml2 installation.**， 执行下面命令安装 **libxml2-dev**
 ```shell
