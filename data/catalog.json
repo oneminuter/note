@@ -41,6 +41,12 @@
 			"title": "redis 安装",
 			"file":"redisInstall.md",
 			"time": "2018-07-17"
+		},
+		{
+			"classfiy": "mysql",
+			"title": "mysql时间格式化",
+			"file":"mysqlTimeFormat.md",
+			"time": "2018-07-24"
 		}
 	]	
 }
