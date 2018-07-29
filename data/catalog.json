@@ -2,20 +2,32 @@
 	"list":[
 		{
 			"classfiy": "linux",
-			"title": "centos 安装 Nginx",
-			"file":"installNginxOnCentos.md",
+			"title": "centos安装yum",
+			"file":"installYum.md",
+			"time": "2018-07-29"
+		},
+		{
+			"classfiy": "mysql",
+			"title": "mysql时间格式化",
+			"file":"mysqlTimeFormat.md",
+			"time": "2018-07-24"
+		},
+		{
+			"classfiy": "redis",
+			"title": "redis 安装",
+			"file":"redisInstall.md",
+			"time": "2018-07-17"
+		},
+		{
+			"classfiy": "mysql",
+			"title": "mysql 创建用户并授权",
+			"file":"createMysqlUserAndGrant.md",
 			"time": "2018-06-05"
 		},
 		{
 			"classfiy": "linux",
-			"title": "centos 7 里恢复 window 引导",
-			"file":"recoverWinGuideInCentos.md",
-			"time": "2018-06-05"
-		},
-		{
-			"classfiy": "linux",
-			"title": "centos 7 firewall 开启端口",
-			"file":"openPort.md",
+			"title": "centos 7 安装mysql",
+			"file":"installMySqlOnCentos.md",
 			"time": "2018-06-05"
 		},
 		{
@@ -26,27 +38,21 @@
 		},
 		{
 			"classfiy": "linux",
-			"title": "centos 7 安装mysql",
-			"file":"installMySqlOnCentos.md",
+			"title": "centos 7 firewall 开启端口",
+			"file":"openPort.md",
 			"time": "2018-06-05"
 		},
 		{
-			"classfiy": "mysql",
-			"title": "mysql 创建用户并授权",
-			"file":"createMysqlUserAndGrant.md",
+			"classfiy": "linux",
+			"title": "centos 7 里恢复 window 引导",
+			"file":"recoverWinGuideInCentos.md",
 			"time": "2018-06-05"
 		},
 		{
-			"classfiy": "redis",
-			"title": "redis 安装",
-			"file":"redisInstall.md",
-			"time": "2018-07-17"
-		},
-		{
-			"classfiy": "mysql",
-			"title": "mysql时间格式化",
-			"file":"mysqlTimeFormat.md",
-			"time": "2018-07-24"
+			"classfiy": "linux",
+			"title": "centos 安装 Nginx",
+			"file":"installNginxOnCentos.md",
+			"time": "2018-06-05"
 		}
 	]	
 }
