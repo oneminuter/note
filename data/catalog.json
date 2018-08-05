@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "mac",
+			"title": "解决macs上安装软件报文件已损坏",
+			"file":"macInstallWringDamage.md",
+			"time": "2018-08-05"
+		},
+		{
 			"classfiy": "linux",
 			"title": "centos安装yum",
 			"file":"installYum.md",
