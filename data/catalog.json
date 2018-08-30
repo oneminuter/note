@@ -2,7 +2,7 @@
 	"list":[
 		{
 			"classfiy": "mysql",
-			"title": "Mysql报:this authentication plugin is not supported",
+			"title": "mysql链接时报:this authentication plugin is not supported",
 			"file":"mysqlLinkErr.md",
 			"time": "2018-08-30"
 		},
