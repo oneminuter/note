@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "mysql",
+			"title": "this authentication plugin is not supported",
+			"file":"mysqlLinkErr.md",
+			"time": "2018-08-30"
+		},
+		{
 			"classfiy": "mac",
 			"title": "mac启动软件报文件已损坏",
 			"file":"macInstallWringDamage.md",
