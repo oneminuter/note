@@ -2,6 +2,12 @@
 	"list":[
 		{
 			"classfiy": "mac",
+			"title": "极客时间",
+			"file":"jikeTime.md",
+			"time": "2018-10-20"
+		},
+		{
+			"classfiy": "mac",
 			"title": "mac启动软件报文件已损坏",
 			"file":"macInstallWringDamage.md",
 			"time": "2018-08-05"
