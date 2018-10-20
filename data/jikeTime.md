@@ -1,166 +1,166 @@
 # 极客时间
 
 ## 趣谈网络协议
-1:(开篇词 | 想成为技术牛人？先搞定网络协议！)[https://time.geekbang.org/column/article/7398]
-2:(第1讲 | 为什么要学习网络协议？)[https://time.geekbang.org/column/article/7581]
-3:(第2讲 | 网络分层的真实含义是什么？)[https://time.geekbang.org/column/article/7724]
-4:(第3讲 | ifconfig：最熟悉又陌生的命令行)[https://time.geekbang.org/column/article/7772]
-5:(第4讲 | DHCP与PXE：IP是怎么来的，又是怎么没的？)[https://time.geekbang.org/column/article/8015]
-6:(第5讲 | 从物理层到MAC层：如何在宿舍里自己组网玩联机游戏？)[https://time.geekbang.org/column/article/8094]
-7:(第6讲 | 交换机与VLAN：办公室太复杂，我要回学校)[https://time.geekbang.org/column/article/8386]
-8:(第7讲 | ICMP与ping：投石问路的侦察兵)[https://time.geekbang.org/column/article/8445]
-9:(第8讲 | 世界这么大，我想出网关：欧洲十国游与玄奘西行)[https://time.geekbang.org/column/article/8590]
-10:(第9讲 | 路由协议：西出网关无故人，敢问路在何方)[https://time.geekbang.org/column/article/8729]
-11:(第10讲 | UDP协议：因性善而简单，难免碰到“城会玩”)[https://time.geekbang.org/column/article/8924]
-12:(第11讲 | TCP协议（上）：因性恶而复杂，先恶后善反轻松)[https://time.geekbang.org/column/article/8975]
-13:(第12讲 | TCP协议（下）：西行必定多妖孽，恒心智慧消磨难)[https://time.geekbang.org/column/article/9141]
-14:(第13讲 | 套接字Socket：Talk is cheap, show me the code)[https://time.geekbang.org/column/article/9293]
-15:(第14讲 | HTTP协议：看个新闻原来这么麻烦)[https://time.geekbang.org/column/article/9410]
-16:(第15讲 | HTTPS协议：点外卖的过程原来这么复杂)[https://time.geekbang.org/column/article/9492]
-17:(第16讲 | 流媒体协议：如何在直播里看到美女帅哥？)[https://time.geekbang.org/column/article/9688]
-18:(第17讲 | P2P协议：我下小电影，99%急死你)[https://time.geekbang.org/column/article/9707]
-19:(第18讲 | DNS协议：网络世界的地址簿)[https://time.geekbang.org/column/article/9895]
-20:(第19讲 | HTTPDNS：网络世界的地址簿也会指错路)[https://time.geekbang.org/column/article/9938]
-21:(第20讲 | CDN：你去小卖部取过快递么？)[https://time.geekbang.org/column/article/10085]
-22:(第21讲 | 数据中心：我是开发商，自己拿地盖别墅)[https://time.geekbang.org/column/article/10098]
-23:(第22讲 | VPN：朝中有人好做官)[https://time.geekbang.org/column/article/10386]
-24:(第23讲 | 移动网络：去巴塞罗那，手机也上不了脸书)[https://time.geekbang.org/column/article/10534]
-25:(第24讲 | 云中网络：自己拿地成本高，购买公寓更灵活)[https://time.geekbang.org/column/article/10742]
-26:(第25讲 | 软件定义网络：共享基础设施的小区物业管理办法)[https://time.geekbang.org/column/article/10755]
-27:(第26讲 | 云中的网络安全：虽然不是土豪，也需要基本安全和保障)[https://time.geekbang.org/column/article/10978]
-28:(第27讲 | 云中的网络QoS：邻居疯狂下电影，我该怎么办？)[https://time.geekbang.org/column/article/10994]
-29:(第28讲 | 云中网络的隔离GRE、VXLAN：虽然住一个小区，也要保护隐私)[https://time.geekbang.org/column/article/11324]
-30:(第29讲 | 容器网络：来去自由的日子，不买公寓去合租)[https://time.geekbang.org/column/article/11465]
-31:(第30讲 | 容器网络之Flannel：每人一亩三分地)[https://time.geekbang.org/column/article/11643]
-32:(第31讲 | 容器网络之Calico：为高效说出善意的谎言)[https://time.geekbang.org/column/article/11940]
-33:(第32讲 | RPC协议综述：远在天边，近在眼前)[https://time.geekbang.org/column/article/12230]
-34:(第33讲 | 基于XML的SOAP协议：不要说NBA，请说美国职业篮球联赛)[https://time.geekbang.org/column/article/12388]
-35:(第34讲 | 基于JSON的RESTful接口协议：我不关心过程，请给我结果)[https://time.geekbang.org/column/article/12512]
-36:(第35讲 | 二进制类RPC协议：还是叫NBA吧，总说全称多费劲)[https://time.geekbang.org/column/article/12521]
-37:(第36讲 | 跨语言类RPC协议：交流之前，双方先来个专业术语表)[https://time.geekbang.org/column/article/12819]
-38:(第37讲 | 知识串讲：用双十一的故事串起碎片的网络协议（上）)[https://time.geekbang.org/column/article/12991]
-39:(第38讲 | 知识串讲：用双十一的故事串起碎片的网络协议（中）)[https://time.geekbang.org/column/article/12996]
-40:(第39讲 | 知识串讲：用双十一的故事串起碎片的网络协议（下）)[https://time.geekbang.org/column/article/13099]
-41:(第40讲 | 搭建一个网络实验环境：授人以鱼不如授人以渔)[https://time.geekbang.org/column/article/13124]
-42:(协议专栏特别福利 | 答疑解惑第一期)[https://time.geekbang.org/column/article/13520]
-43:(协议专栏特别福利 | 答疑解惑第二期)[https://time.geekbang.org/column/article/13847]
-44:(协议专栏特别福利 | 答疑解惑第三期)[https://time.geekbang.org/column/article/14028]
-45:(协议专栏特别福利 | 答疑解惑第四期)[https://time.geekbang.org/column/article/14194]
-46:(协议专栏特别福利 | 答疑解惑第五期)[https://time.geekbang.org/column/article/14381]
-47:(测一测 | 这些网络协议你都掌握了吗？)[https://time.geekbang.org/column/article/14384]
-48:(结束语 | 放弃完美主义，执行力就是限时限量认真完成)[https://time.geekbang.org/column/article/14553]
-49:(我是如何创作“趣谈网络协议”专栏的？)[https://time.geekbang.org/column/article/17846]
-50:(“趣谈网络协议”专栏「食用指南」)[https://time.geekbang.org/column/article/17862]
+1:[开篇词 | 想成为技术牛人？先搞定网络协议！](https://time.geekbang.org/column/article/7398])
+2:[第1讲 | 为什么要学习网络协议？](https://time.geekbang.org/column/article/7581])
+3:[第2讲 | 网络分层的真实含义是什么？](https://time.geekbang.org/column/article/7724])
+4:[第3讲 | ifconfig：最熟悉又陌生的命令行](https://time.geekbang.org/column/article/7772])
+5:[第4讲 | DHCP与PXE：IP是怎么来的，又是怎么没的？](https://time.geekbang.org/column/article/8015])
+6:[第5讲 | 从物理层到MAC层：如何在宿舍里自己组网玩联机游戏？](https://time.geekbang.org/column/article/8094])
+7:[第6讲 | 交换机与VLAN：办公室太复杂，我要回学校](https://time.geekbang.org/column/article/8386])
+8:[第7讲 | ICMP与ping：投石问路的侦察兵](https://time.geekbang.org/column/article/8445])
+9:[第8讲 | 世界这么大，我想出网关：欧洲十国游与玄奘西行](https://time.geekbang.org/column/article/8590])
+10:[第9讲 | 路由协议：西出网关无故人，敢问路在何方](https://time.geekbang.org/column/article/8729])
+11:[第10讲 | UDP协议：因性善而简单，难免碰到“城会玩”](https://time.geekbang.org/column/article/8924])
+12:[第11讲 | TCP协议（上）：因性恶而复杂，先恶后善反轻松](https://time.geekbang.org/column/article/8975])
+13:[第12讲 | TCP协议（下）：西行必定多妖孽，恒心智慧消磨难](https://time.geekbang.org/column/article/9141])
+14:[第13讲 | 套接字Socket：Talk is cheap, show me the code](https://time.geekbang.org/column/article/9293])
+15:[第14讲 | HTTP协议：看个新闻原来这么麻烦](https://time.geekbang.org/column/article/9410])
+16:[第15讲 | HTTPS协议：点外卖的过程原来这么复杂](https://time.geekbang.org/column/article/9492])
+17:[第16讲 | 流媒体协议：如何在直播里看到美女帅哥？](https://time.geekbang.org/column/article/9688])
+18:[第17讲 | P2P协议：我下小电影，99%急死你](https://time.geekbang.org/column/article/9707])
+19:[第18讲 | DNS协议：网络世界的地址簿](https://time.geekbang.org/column/article/9895])
+20:[第19讲 | HTTPDNS：网络世界的地址簿也会指错路](https://time.geekbang.org/column/article/9938])
+21:[第20讲 | CDN：你去小卖部取过快递么？](https://time.geekbang.org/column/article/10085])
+22:[第21讲 | 数据中心：我是开发商，自己拿地盖别墅](https://time.geekbang.org/column/article/10098])
+23:[第22讲 | VPN：朝中有人好做官](https://time.geekbang.org/column/article/10386])
+24:[第23讲 | 移动网络：去巴塞罗那，手机也上不了脸书](https://time.geekbang.org/column/article/10534])
+25:[第24讲 | 云中网络：自己拿地成本高，购买公寓更灵活](https://time.geekbang.org/column/article/10742])
+26:[第25讲 | 软件定义网络：共享基础设施的小区物业管理办法](https://time.geekbang.org/column/article/10755])
+27:[第26讲 | 云中的网络安全：虽然不是土豪，也需要基本安全和保障](https://time.geekbang.org/column/article/10978])
+28:[第27讲 | 云中的网络QoS：邻居疯狂下电影，我该怎么办？](https://time.geekbang.org/column/article/10994])
+29:[第28讲 | 云中网络的隔离GRE、VXLAN：虽然住一个小区，也要保护隐私](https://time.geekbang.org/column/article/11324])
+30:[第29讲 | 容器网络：来去自由的日子，不买公寓去合租](https://time.geekbang.org/column/article/11465])
+31:[第30讲 | 容器网络之Flannel：每人一亩三分地](https://time.geekbang.org/column/article/11643])
+32:[第31讲 | 容器网络之Calico：为高效说出善意的谎言](https://time.geekbang.org/column/article/11940])
+33:[第32讲 | RPC协议综述：远在天边，近在眼前](https://time.geekbang.org/column/article/12230])
+34:[第33讲 | 基于XML的SOAP协议：不要说NBA，请说美国职业篮球联赛](https://time.geekbang.org/column/article/12388])
+35:[第34讲 | 基于JSON的RESTful接口协议：我不关心过程，请给我结果](https://time.geekbang.org/column/article/12512])
+36:[第35讲 | 二进制类RPC协议：还是叫NBA吧，总说全称多费劲](https://time.geekbang.org/column/article/12521])
+37:[第36讲 | 跨语言类RPC协议：交流之前，双方先来个专业术语表](https://time.geekbang.org/column/article/12819])
+38:[第37讲 | 知识串讲：用双十一的故事串起碎片的网络协议（上）](https://time.geekbang.org/column/article/12991])
+39:[第38讲 | 知识串讲：用双十一的故事串起碎片的网络协议（中）](https://time.geekbang.org/column/article/12996])
+40:[第39讲 | 知识串讲：用双十一的故事串起碎片的网络协议（下）](https://time.geekbang.org/column/article/13099])
+41:[第40讲 | 搭建一个网络实验环境：授人以鱼不如授人以渔](https://time.geekbang.org/column/article/13124])
+42:[协议专栏特别福利 | 答疑解惑第一期](https://time.geekbang.org/column/article/13520])
+43:[协议专栏特别福利 | 答疑解惑第二期](https://time.geekbang.org/column/article/13847])
+44:[协议专栏特别福利 | 答疑解惑第三期](https://time.geekbang.org/column/article/14028])
+45:[协议专栏特别福利 | 答疑解惑第四期](https://time.geekbang.org/column/article/14194])
+46:[协议专栏特别福利 | 答疑解惑第五期](https://time.geekbang.org/column/article/14381])
+47:[测一测 | 这些网络协议你都掌握了吗？](https://time.geekbang.org/column/article/14384])
+48:[结束语 | 放弃完美主义，执行力就是限时限量认真完成](https://time.geekbang.org/column/article/14553])
+49:[我是如何创作“趣谈网络协议”专栏的？](https://time.geekbang.org/column/article/17846])
+50:[“趣谈网络协议”专栏「食用指南」](https://time.geekbang.org/column/article/17862])
 
 
 ## 数据结构与算法之美
-1:(开篇词 | 从今天起，跨过“数据结构与算法”这道坎)[https://time.geekbang.org/column/article/39922]
-2:(01 | 为什么要学习数据结构和算法？)[https://time.geekbang.org/column/article/39972]
-3:(02 | 如何抓住重点，系统高效地学习数据结构与算法？)[https://time.geekbang.org/column/article/40011]
-4:(03 | 复杂度分析（上）：如何分析、统计算法的执行效率和资源消耗？)[https://time.geekbang.org/column/article/40036]
-5:(04 | 复杂度分析（下）：浅析最好、最坏、平均、均摊时间复杂度)[https://time.geekbang.org/column/article/40447]
-6:(不定期的周末福利第一期 | 数据结构与算法学习书单)[https://time.geekbang.org/column/article/40681]
-7:(05 | 数组：为什么很多编程语言中数组都从0开始编号？)[https://time.geekbang.org/column/article/40961]
-8:(06 | 链表（上）：如何实现LRU缓存淘汰算法?)[https://time.geekbang.org/column/article/41013]
-9:(07 | 链表（下）：如何轻松写出正确的链表代码？)[https://time.geekbang.org/column/article/41149]
-10:(08 | 栈：如何实现浏览器的前进和后退功能？)[https://time.geekbang.org/column/article/41222]
-11:(09 | 队列：队列在线程池等有限资源池中的应用)[https://time.geekbang.org/column/article/41330]
-12:(10 |  递归：如何用三行代码找到“最终推荐人”？)[https://time.geekbang.org/column/article/41440]
-13:(11 | 排序（上）：为什么插入排序比冒泡排序更受欢迎？)[https://time.geekbang.org/column/article/41802]
-14:(12 | 排序（下）：如何用快排思想在O(n)内查找第K大元素？)[https://time.geekbang.org/column/article/41913]
-15:(13 | 线性排序：如何根据年龄给100万用户数据排序？)[https://time.geekbang.org/column/article/42038]
+1:[开篇词 | 从今天起，跨过“数据结构与算法”这道坎](https://time.geekbang.org/column/article/39922])
+2:[01 | 为什么要学习数据结构和算法？](https://time.geekbang.org/column/article/39972])
+3:[02 | 如何抓住重点，系统高效地学习数据结构与算法？](https://time.geekbang.org/column/article/40011])
+4:[03 | 复杂度分析（上）：如何分析、统计算法的执行效率和资源消耗？](https://time.geekbang.org/column/article/40036])
+5:[04 | 复杂度分析（下）：浅析最好、最坏、平均、均摊时间复杂度](https://time.geekbang.org/column/article/40447])
+6:[不定期的周末福利第一期 | 数据结构与算法学习书单](https://time.geekbang.org/column/article/40681])
+7:[05 | 数组：为什么很多编程语言中数组都从0开始编号？](https://time.geekbang.org/column/article/40961])
+8:[06 | 链表（上）：如何实现LRU缓存淘汰算法?](https://time.geekbang.org/column/article/41013])
+9:[07 | 链表（下）：如何轻松写出正确的链表代码？](https://time.geekbang.org/column/article/41149])
+10:[08 | 栈：如何实现浏览器的前进和后退功能？](https://time.geekbang.org/column/article/41222])
+11:[09 | 队列：队列在线程池等有限资源池中的应用](https://time.geekbang.org/column/article/41330])
+12:[10 |  递归：如何用三行代码找到“最终推荐人”？](https://time.geekbang.org/column/article/41440])
+13:[11 | 排序（上）：为什么插入排序比冒泡排序更受欢迎？](https://time.geekbang.org/column/article/41802])
+14:[12 | 排序（下）：如何用快排思想在O[n](查找第K大元素？](https://time.geekbang.org/column/article/41913])
+15:[13 | 线性排序：如何根据年龄给100万用户数据排序？](https://time.geekbang.org/column/article/42038])
 
 
 
 ## 深入剖析Kubernetes
-1:(开篇词 | 打通“容器技术”的任督二脉)[https://time.geekbang.org/column/article/14252]
-2:(01 | 预习篇 · 小鲸鱼大事记（一）：初出茅庐)[https://time.geekbang.org/column/article/14254]
-3:(02 | 预习篇 · 小鲸鱼大事记（二）：崭露头角)[https://time.geekbang.org/column/article/14256]
-4:(03 | 预习篇 · 小鲸鱼大事记（三）：群雄并起)[https://time.geekbang.org/column/article/14405]
-5:(04 | 预习篇 · 小鲸鱼大事记（四）：尘埃落定)[https://time.geekbang.org/column/article/14406]
-6:(05 | 白话容器基础（一）：从进程说开去)[https://time.geekbang.org/column/article/14642]
-7:(06 | 白话容器基础（二）：隔离与限制)[https://time.geekbang.org/column/article/14653]
-8:(07 | 白话容器基础（三）：深入理解容器镜像)[https://time.geekbang.org/column/article/17921]
-9:(08 | 白话容器基础（四）：重新认识Docker容器)[https://time.geekbang.org/column/article/18119]
-10:(09 | 从容器到容器云：谈谈Kubernetes的本质)[https://time.geekbang.org/column/article/23132]
-11:(10 | Kubernetes一键部署利器：kubeadm)[https://time.geekbang.org/column/article/39712]
-12:(11 | 从0到1：搭建一个完整的Kubernetes集群)[https://time.geekbang.org/column/article/39724]
-13:(12 | 牛刀小试：我的第一个容器化应用)[https://time.geekbang.org/column/article/40008]
-14:(13 | 为什么我们需要Pod？)[https://time.geekbang.org/column/article/40092]
-15:(14 | 深入解析Pod对象（一）：基本概念)[https://time.geekbang.org/column/article/40366]
-16:(15 | 深入解析Pod对象（二）：使用进阶)[https://time.geekbang.org/column/article/40466]
-17:(16 | 编排其实很简单：谈谈“控制器”模型)[https://time.geekbang.org/column/article/40583]
-18:(17 | 经典PaaS的记忆：作业副本与水平扩展)[https://time.geekbang.org/column/article/40906]
-19:(18 | 深入理解StatefulSet（一）：拓扑状态)[https://time.geekbang.org/column/article/41017]
-20:(19 | 深入理解StatefulSet（二）：存储状态)[https://time.geekbang.org/column/article/41154]
-21:(20 | 深入理解StatefulSet（三）：有状态应用实践)[https://time.geekbang.org/column/article/41217]
-22:(21 | 容器化守护进程的意义：DaemonSet)[https://time.geekbang.org/column/article/41366]
-23:(22 | 撬动离线业务：Job与CronJob)[https://time.geekbang.org/column/article/41607]
-24:(23 | 声明式API与Kubernetes编程范式)[https://time.geekbang.org/column/article/41769]
-25:(24 | 深入解析声明式API（一）：API对象的奥秘)[https://time.geekbang.org/column/article/41876]
-26:(25 | 深入解析声明式API（二）：编写自定义控制器)[https://time.geekbang.org/column/article/42076]
+1:[开篇词 | 打通“容器技术”的任督二脉](https://time.geekbang.org/column/article/14252])
+2:[01 | 预习篇 · 小鲸鱼大事记（一）：初出茅庐](https://time.geekbang.org/column/article/14254])
+3:[02 | 预习篇 · 小鲸鱼大事记（二）：崭露头角](https://time.geekbang.org/column/article/14256])
+4:[03 | 预习篇 · 小鲸鱼大事记（三）：群雄并起](https://time.geekbang.org/column/article/14405])
+5:[04 | 预习篇 · 小鲸鱼大事记（四）：尘埃落定](https://time.geekbang.org/column/article/14406])
+6:[05 | 白话容器基础（一）：从进程说开去](https://time.geekbang.org/column/article/14642])
+7:[06 | 白话容器基础（二）：隔离与限制](https://time.geekbang.org/column/article/14653])
+8:[07 | 白话容器基础（三）：深入理解容器镜像](https://time.geekbang.org/column/article/17921])
+9:[08 | 白话容器基础（四）：重新认识Docker容器](https://time.geekbang.org/column/article/18119])
+10:[09 | 从容器到容器云：谈谈Kubernetes的本质](https://time.geekbang.org/column/article/23132])
+11:[10 | Kubernetes一键部署利器：kubeadm](https://time.geekbang.org/column/article/39712])
+12:[11 | 从0到1：搭建一个完整的Kubernetes集群](https://time.geekbang.org/column/article/39724])
+13:[12 | 牛刀小试：我的第一个容器化应用](https://time.geekbang.org/column/article/40008])
+14:[13 | 为什么我们需要Pod？](https://time.geekbang.org/column/article/40092])
+15:[14 | 深入解析Pod对象（一）：基本概念](https://time.geekbang.org/column/article/40366])
+16:[15 | 深入解析Pod对象（二）：使用进阶](https://time.geekbang.org/column/article/40466])
+17:[16 | 编排其实很简单：谈谈“控制器”模型](https://time.geekbang.org/column/article/40583])
+18:[17 | 经典PaaS的记忆：作业副本与水平扩展](https://time.geekbang.org/column/article/40906])
+19:[18 | 深入理解StatefulSet（一）：拓扑状态](https://time.geekbang.org/column/article/41017])
+20:[19 | 深入理解StatefulSet（二）：存储状态](https://time.geekbang.org/column/article/41154])
+21:[20 | 深入理解StatefulSet（三）：有状态应用实践](https://time.geekbang.org/column/article/41217])
+22:[21 | 容器化守护进程的意义：DaemonSet](https://time.geekbang.org/column/article/41366])
+23:[22 | 撬动离线业务：Job与CronJob](https://time.geekbang.org/column/article/41607])
+24:[23 | 声明式API与Kubernetes编程范式](https://time.geekbang.org/column/article/41769])
+25:[24 | 深入解析声明式API（一）：API对象的奥秘](https://time.geekbang.org/column/article/41876])
+26:[25 | 深入解析声明式API（二）：编写自定义控制器](https://time.geekbang.org/column/article/42076])
 
 
 ## 从0开始学微服务
-1:(开篇词 | 微服务，从放弃到入门)[https://time.geekbang.org/column/article/13672]
-2:(01 | 到底什么是微服务？)[https://time.geekbang.org/column/article/13882]
-3:(02 | 从单体应用走向服务化)[https://time.geekbang.org/column/article/13891]
-4:(03 | 初探微服务架构)[https://time.geekbang.org/column/article/14222]
-5:(04 | 如何发布和引用服务？)[https://time.geekbang.org/column/article/14425]
-6:(05 | 如何注册和发现服务？)[https://time.geekbang.org/column/article/14603]
-7:(06 | 如何实现RPC远程服务调用？)[https://time.geekbang.org/column/article/15092]
-8:(07 | 如何监控微服务调用？)[https://time.geekbang.org/column/article/15109]
-9:(08 | 如何追踪微服务调用？)[https://time.geekbang.org/column/article/15273]
-10:(09 | 微服务治理的手段有哪些？)[https://time.geekbang.org/column/article/18651]
-11:(10 | Dubbo框架里的微服务组件)[https://time.geekbang.org/column/article/31644]
-12:(11 | 服务发布和引用的实践)[https://time.geekbang.org/column/article/39783]
-13:(12 | 如何将注册中心落地？)[https://time.geekbang.org/column/article/39792]
-14:(13 | 开源服务注册中心如何选型？)[https://time.geekbang.org/column/article/39797]
-15:(14 | 开源RPC框架如何选型？)[https://time.geekbang.org/column/article/39809]
-16:(15 | 如何搭建一个可靠的监控系统？)[https://time.geekbang.org/column/article/39907]
-17:(16 | 如何搭建一套适合你的服务追踪系统？)[https://time.geekbang.org/column/article/40505]
-18:(17 | 如何识别服务节点是否存活？)[https://time.geekbang.org/column/article/40684]
-19:(18 | 如何使用负载均衡算法？)[https://time.geekbang.org/column/article/40883]
-20:(19 | 如何使用服务路由？)[https://time.geekbang.org/column/article/40893]
-21:(20 | 服务端出现故障时该如何应对？)[https://time.geekbang.org/column/article/40908]
-22:(21 | 服务调用失败时有哪些处理手段？)[https://time.geekbang.org/column/article/41297]
-23:(22 | 如何管理服务配置？)[https://time.geekbang.org/column/article/41509]
-24:(23 | 如何搭建微服务治理平台？)[https://time.geekbang.org/column/article/41758]
-25:(24 | 微服务架构该如何落地？)[https://time.geekbang.org/column/article/41873]
-26:(25 | 微服务为什么要容器化？)[https://time.geekbang.org/column/article/41977]
-27:(26 | 微服务容器化运维：镜像仓库和资源调度)[https://time.geekbang.org/column/article/42167]
+1:[开篇词 | 微服务，从放弃到入门](https://time.geekbang.org/column/article/13672])
+2:[01 | 到底什么是微服务？](https://time.geekbang.org/column/article/13882])
+3:[02 | 从单体应用走向服务化](https://time.geekbang.org/column/article/13891])
+4:[03 | 初探微服务架构](https://time.geekbang.org/column/article/14222])
+5:[04 | 如何发布和引用服务？](https://time.geekbang.org/column/article/14425])
+6:[05 | 如何注册和发现服务？](https://time.geekbang.org/column/article/14603])
+7:[06 | 如何实现RPC远程服务调用？](https://time.geekbang.org/column/article/15092])
+8:[07 | 如何监控微服务调用？](https://time.geekbang.org/column/article/15109])
+9:[08 | 如何追踪微服务调用？](https://time.geekbang.org/column/article/15273])
+10:[09 | 微服务治理的手段有哪些？](https://time.geekbang.org/column/article/18651])
+11:[10 | Dubbo框架里的微服务组件](https://time.geekbang.org/column/article/31644])
+12:[11 | 服务发布和引用的实践](https://time.geekbang.org/column/article/39783])
+13:[12 | 如何将注册中心落地？](https://time.geekbang.org/column/article/39792])
+14:[13 | 开源服务注册中心如何选型？](https://time.geekbang.org/column/article/39797])
+15:[14 | 开源RPC框架如何选型？](https://time.geekbang.org/column/article/39809])
+16:[15 | 如何搭建一个可靠的监控系统？](https://time.geekbang.org/column/article/39907])
+17:[16 | 如何搭建一套适合你的服务追踪系统？](https://time.geekbang.org/column/article/40505])
+18:[17 | 如何识别服务节点是否存活？](https://time.geekbang.org/column/article/40684])
+19:[18 | 如何使用负载均衡算法？](https://time.geekbang.org/column/article/40883])
+20:[19 | 如何使用服务路由？](https://time.geekbang.org/column/article/40893])
+21:[20 | 服务端出现故障时该如何应对？](https://time.geekbang.org/column/article/40908])
+22:[21 | 服务调用失败时有哪些处理手段？](https://time.geekbang.org/column/article/41297])
+23:[22 | 如何管理服务配置？](https://time.geekbang.org/column/article/41509])
+24:[23 | 如何搭建微服务治理平台？](https://time.geekbang.org/column/article/41758])
+25:[24 | 微服务架构该如何落地？](https://time.geekbang.org/column/article/41873])
+26:[25 | 微服务为什么要容器化？](https://time.geekbang.org/column/article/41977])
+27:[26 | 微服务容器化运维：镜像仓库和资源调度](https://time.geekbang.org/column/article/42167])
 
 
 ## Go语言核心36讲
-1:(开篇词 | 跟着学，你也能成为Go语言高手)[https://time.geekbang.org/column/article/12655]
-2:(预习篇 | 写给0基础入门的Go语言学习者)[https://time.geekbang.org/column/article/13540]
-3:(01 | 工作区和GOPATH)[https://time.geekbang.org/column/article/12959]
-4:(02 | 命令源码文件)[https://time.geekbang.org/column/article/13159]
-5:(03 | 库源码文件)[https://time.geekbang.org/column/article/13176]
-6:(04 | 程序实体的那些事儿（上）)[https://time.geekbang.org/column/article/13178]
-7:(05 | 程序实体的那些事儿（中）)[https://time.geekbang.org/column/article/13562]
-8:(06 | 程序实体的那些事儿 （下）)[https://time.geekbang.org/column/article/13601]
-9:(07 | 数组和切片)[https://time.geekbang.org/column/article/14106]
-10:(08 | container包中的那些容器)[https://time.geekbang.org/column/article/14117]
-11:(09 | 字典的操作和约束)[https://time.geekbang.org/column/article/14123]
-12:(10 | 通道的基本操作)[https://time.geekbang.org/column/article/14660]
-13:(11 | 通道的高级玩法)[https://time.geekbang.org/column/article/14664]
-14:(12 | 使用函数的正确姿势)[https://time.geekbang.org/column/article/14671]
-15:(13 | 结构体及其方法的使用法门)[https://time.geekbang.org/column/article/18035]
-16:(14 | 接口类型的合理运用)[https://time.geekbang.org/column/article/18037]
-17:(15 | 关于指针的有限操作)[https://time.geekbang.org/column/article/18042]
-18:(16 | go语句及其执行规则（上）)[https://time.geekbang.org/column/article/39841]
-19:(17 | go语句及其执行规则（下）)[https://time.geekbang.org/column/article/39844]
-20:(18 | if语句、for语句和switch语句)[https://time.geekbang.org/column/article/39858]
-21:(19 | 错误处理（上）)[https://time.geekbang.org/column/article/40311]
-22:(20 | 错误处理 （下）)[https://time.geekbang.org/column/article/40333]
-23:(21 | panic函数、recover函数以及defer语句 （上）)[https://time.geekbang.org/column/article/40359]
-24:(22 | panic函数、recover函数以及defer语句（下）)[https://time.geekbang.org/column/article/40889]
-25:(23 | 测试的基本规则和流程 （上）)[https://time.geekbang.org/column/article/41036]
-26:(24 | 测试的基本规则和流程（下）)[https://time.geekbang.org/column/article/41189]
-27:(25 | 更多的测试手法)[https://time.geekbang.org/column/article/41255]
-28:(26 | sync.Mutex与sync.RWMutex)[https://time.geekbang.org/column/article/41350]
-29:(27 | 条件变量sync.Cond （上）)[https://time.geekbang.org/column/article/41588]
-30:(28 | 条件变量sync.Cond （下）)[https://time.geekbang.org/column/article/41717]
-31:(29 | 原子操作（上）)[https://time.geekbang.org/column/article/41908]
-32:(30 | 原子操作（下）)[https://time.geekbang.org/column/article/41929]
+1:[开篇词 | 跟着学，你也能成为Go语言高手](https://time.geekbang.org/column/article/12655])
+2:[预习篇 | 写给0基础入门的Go语言学习者](https://time.geekbang.org/column/article/13540])
+3:[01 | 工作区和GOPATH](https://time.geekbang.org/column/article/12959])
+4:[02 | 命令源码文件](https://time.geekbang.org/column/article/13159])
+5:[03 | 库源码文件](https://time.geekbang.org/column/article/13176])
+6:[04 | 程序实体的那些事儿（上）](https://time.geekbang.org/column/article/13178])
+7:[05 | 程序实体的那些事儿（中）](https://time.geekbang.org/column/article/13562])
+8:[06 | 程序实体的那些事儿 （下）](https://time.geekbang.org/column/article/13601])
+9:[07 | 数组和切片](https://time.geekbang.org/column/article/14106])
+10:[08 | container包中的那些容器](https://time.geekbang.org/column/article/14117])
+11:[09 | 字典的操作和约束](https://time.geekbang.org/column/article/14123])
+12:[10 | 通道的基本操作](https://time.geekbang.org/column/article/14660])
+13:[11 | 通道的高级玩法](https://time.geekbang.org/column/article/14664])
+14:[12 | 使用函数的正确姿势](https://time.geekbang.org/column/article/14671])
+15:[13 | 结构体及其方法的使用法门](https://time.geekbang.org/column/article/18035])
+16:[14 | 接口类型的合理运用](https://time.geekbang.org/column/article/18037])
+17:[15 | 关于指针的有限操作](https://time.geekbang.org/column/article/18042])
+18:[16 | go语句及其执行规则（上）](https://time.geekbang.org/column/article/39841])
+19:[17 | go语句及其执行规则（下）](https://time.geekbang.org/column/article/39844])
+20:[18 | if语句、for语句和switch语句](https://time.geekbang.org/column/article/39858])
+21:[19 | 错误处理（上）](https://time.geekbang.org/column/article/40311])
+22:[20 | 错误处理 （下）](https://time.geekbang.org/column/article/40333])
+23:[21 | panic函数、recover函数以及defer语句 （上）](https://time.geekbang.org/column/article/40359])
+24:[22 | panic函数、recover函数以及defer语句（下）](https://time.geekbang.org/column/article/40889])
+25:[23 | 测试的基本规则和流程 （上）](https://time.geekbang.org/column/article/41036])
+26:[24 | 测试的基本规则和流程（下）](https://time.geekbang.org/column/article/41189])
+27:[25 | 更多的测试手法](https://time.geekbang.org/column/article/41255])
+28:[26 | sync.Mutex与sync.RWMutex](https://time.geekbang.org/column/article/41350])
+29:[27 | 条件变量sync.Cond （上）](https://time.geekbang.org/column/article/41588])
+30:[28 | 条件变量sync.Cond （下）](https://time.geekbang.org/column/article/41717])
+31:[29 | 原子操作（上）](https://time.geekbang.org/column/article/41908])
+32:[30 | 原子操作（下）](https://time.geekbang.org/column/article/41929])
