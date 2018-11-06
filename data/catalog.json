@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "git",
+			"title": "git查看历史修改",
+			"file":"gitViewHistoryEdit.md",
+			"time": "2018-11-06"
+		},
+		{
 			"classfiy": "node",
 			"title": "升级node版本",
 			"file":"updateNode.md",
