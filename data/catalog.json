@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "node",
+			"title": "升级node版本",
+			"file":"updateNode.md",
+			"time": "2018-11-06"
+		},
+		{
 			"classfiy": "code",
 			"title": "极客时间",
 			"file":"jikeTime.md",
