@@ -15,7 +15,7 @@ git whatchanged [file]
 git show 007e5c69d4ea413424b9e167a6309ecff94dcc89
 
 git log -p 007e5c69d4ea413424b9e167a6309ecff94dcc89
-````
+```
 
 ## 显示所有提交记录，每一条记录只显示一行
 ```shell
