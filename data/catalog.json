@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "mac",
+			"title": "mac清楚dns缓存",
+			"file":"macClearDns.md",
+			"time": "2018-11-23"
+		},
+		{
 			"classfiy": "git",
 			"title": "git查看历史修改",
 			"file":"gitViewHistoryEdit.md",
