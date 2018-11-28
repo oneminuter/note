@@ -2,6 +2,12 @@
 	"list":[
 		{
 			"classfiy": "git",
+			"title": "git只同步某个分支下某个文件的更新",
+			"file":"gitSyncFile.md",
+			"time": "2018-11-28"
+		},
+		{
+			"classfiy": "git",
 			"title": "git同步分支",
 			"file":"gitSyncBranch.md",
 			"time": "2018-11-28"
