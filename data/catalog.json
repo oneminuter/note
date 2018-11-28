@@ -2,6 +2,12 @@
 	"list":[
 		{
 			"classfiy": "git",
+			"title": "git只合并指定文件",
+			"file":"gitMergeAppointFile.md",
+			"time": "2018-11-28"
+		},
+		{
+			"classfiy": "git",
 			"title": "git diff比较",
 			"file":"gitDiff.md",
 			"time": "2018-11-28"
