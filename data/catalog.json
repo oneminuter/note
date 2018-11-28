@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "git",
+			"title": "git同步分支",
+			"file":"gitSyncBranch.md",
+			"time": "2018-11-28"
+		},
+		{
 			"classfiy": "mac",
 			"title": "mac清楚dns缓存",
 			"file":"macClearDns.md",
