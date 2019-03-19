@@ -17,6 +17,11 @@ git show 007e5c69d4ea413424b9e167a6309ecff94dcc89
 git log -p 007e5c69d4ea413424b9e167a6309ecff94dcc89
 ```
 
+## 显示某个版本的某个文件的修改情况
+```shell
+git show 007e5c69d4ea413424b9e167a6309ecff94dcc89 [file]
+```
+
 ## 显示所有提交记录，每一条记录只显示一行
 ```shell
 git log --pretty=oneline
@@ -25,9 +30,4 @@ git log --pretty=oneline
 ## 显示某个文件有关的所有提交记录
 ```shell
 git log --pretty=oneline [file]
-```
-
-## 显示某个版本的某个文件的修改情况
-```shell
-git show 007e5c69d4ea413424b9e167a6309ecff94dcc89 [file]
 ```

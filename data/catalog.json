@@ -7,6 +7,48 @@
 			"time": "2019-03-19"
 		},
 		{
+			"classfiy": "nginx",
+			"title": "nginx配置跨域",
+			"file":"CorsForNginx.md",
+			"time": "2018-12-17"
+		},
+		{
+			"classfiy": "git",
+			"title": "git从指定分支复制文件到当前分支",
+			"file":"gitCopyFileFromOtherBranch.md",
+			"time": "2018-12-03"
+		},
+		{
+			"classfiy": "git",
+			"title": "git只合并指定文件",
+			"file":"gitMergeAppointFile.md",
+			"time": "2018-11-28"
+		},
+		{
+			"classfiy": "git",
+			"title": "git diff比较",
+			"file":"gitDiff.md",
+			"time": "2018-11-28"
+		},
+		{
+			"classfiy": "git",
+			"title": "git只同步指定分支下指定文件的更新",
+			"file":"gitSyncFile.md",
+			"time": "2018-11-28"
+		},
+		{
+			"classfiy": "git",
+			"title": "git同步分支",
+			"file":"gitSyncBranch.md",
+			"time": "2018-11-28"
+		},
+		{
+			"classfiy": "mac",
+			"title": "mac清楚dns缓存",
+			"file":"macClearDns.md",
+			"time": "2018-11-23"
+		},
+		{
 			"classfiy": "git",
 			"title": "git查看历史修改",
 			"file":"gitViewHistoryEdit.md",
