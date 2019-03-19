@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "go",
+			"title": "go get使用国内镜像",
+			"file":"goGetFromMirror.md",
+			"time": "2019-03-19"
+		},
+		{
 			"classfiy": "git",
 			"title": "git查看历史修改",
 			"file":"gitViewHistoryEdit.md",
