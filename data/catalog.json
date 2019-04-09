@@ -2,6 +2,12 @@
 	"list":[
 		{
 			"classfiy": "go",
+			"title": "go get拉取内部gitlab包，并且是http",
+			"file":"goGetFromGitlab.md",
+			"time": "2019-04-10"
+		},
+		{
+			"classfiy": "go",
 			"title": "go get使用国内镜像",
 			"file":"goGetFromMirror.md",
 			"time": "2019-03-19"
