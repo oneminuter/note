@@ -16,3 +16,11 @@ go get -insecure myself.gitlab.com/linty/x
 ```
 
 因为是 http 所以得加上 `-insecure` 参数
+
+
+### 其他可能需要的辅助命令
+```shell
+git config --global http.extraheader "PRIVATE-TOKEN: jsYSRyWTmjtpHbx1ECL6"
+
+git config --global url."git@myself.gitlab.com:linty/x.git".insteadOf "http://myself.gitlab.com/linty/x.git"
+```
