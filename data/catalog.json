@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "centos 安装 docker",
+			"file":"centosInstallDocker.md",
+			"time": "2019-04-20"
+		},
+		{
 			"classfiy": "go",
 			"title": "go get拉取内部gitlab包，并且是http",
 			"file":"goGetFromGitlab.md",
