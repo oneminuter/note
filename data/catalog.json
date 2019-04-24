@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "supervisor",
+			"title": "supervisor 基本命令",
+			"file":"supervisorBaseCmd.md",
+			"time": "2019-04-24"
+		},
+		{
 			"classfiy": "linux",
 			"title": "centos 修改hostname",
 			"file":"centosModifyHostname.md",
