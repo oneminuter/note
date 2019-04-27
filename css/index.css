@@ -27,6 +27,7 @@ img{
 }
 .container ul li{
 	margin-bottom: 5px;
+	display: table;
 }
 .container ul li a{
 	text-decoration: underline;
