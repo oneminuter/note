@@ -20,6 +20,11 @@ systemctl restart  docker
 systemctl stop docker
 ```
 
+## 守护进程重启
+```
+sudo systemctl daemon-reload
+```
+
 ### service 方式做上面的操作
 ```
 service docker start
