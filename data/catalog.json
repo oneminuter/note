@@ -1,6 +1,24 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "centos 删除旧的内核",
+			"file":"centosRemoveOldKernel.md",
+			"time": "2019-04-27"
+		},
+		{
+			"classfiy": "nginx",
+			"title": "nginx 代理配置",
+			"file":"nginxProxySet.md",
+			"time": "2019-04-27"
+		},
+		{
+			"classfiy": "git",
+			"title": "搭建远端 git 服务器",
+			"file":"installRemoteGitServer.md",
+			"time": "2019-04-27"
+		},
+		{
 			"classfiy": "supervisor",
 			"title": "supervisor 基本命令",
 			"file":"supervisorBaseCmd.md",
