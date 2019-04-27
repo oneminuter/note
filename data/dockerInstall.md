@@ -1,7 +1,5 @@
 # docker 安装
 
-[TOC]
-
 ## Docker CE 镜像源站
 使用官方安装脚本自动安装 （仅适用于公网环境）
 ```
@@ -79,6 +77,19 @@ sudo service docker start
 # VPC网络：
 # sudo yum-config-manager --add-repo http://mirrors.could.aliyuncs.com/docker-ce/linux/centos/docker-ce.repo
 ```
+
+### Mac 上安装
+
+对于10.10.3以下的用户 推荐使用Docker Toolbox
+Mac安装文件：http://mirrors.aliyun.com/docker-toolbox/mac/docker-toolbox/
+对于10.10.3以上的用户 推荐使用Docker for Mac
+Mac安装文件：http://mirrors.aliyun.com/docker-toolbox/mac/docker-for-mac/
+
+### Windows 上安装
+对于Windows 10以下的用户，推荐使用Docker Toolbox
+Windows安装文件：http://mirrors.aliyun.com/docker-toolbox/windows/docker-toolbox/
+对于Windows 10以上的用户 推荐使用Docker for Windows
+Windows安装文件：http://mirrors.aliyun.com/docker-toolbox/windows/docker-for-windows/
 
 ### 安装校验
 ```
