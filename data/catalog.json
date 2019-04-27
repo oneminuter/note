@@ -2,6 +2,12 @@
 	"list":[
 		{
 			"classfiy": "docker",
+			"title": "docker 安装",
+			"file":"dockerInstall.md",
+			"time": "2019-04-27"
+		},
+		{
+			"classfiy": "docker",
 			"title": "docker 使用阿里云加速",
 			"file":"dockerUserAliyunSpeedUp.md",
 			"time": "2019-04-27"
