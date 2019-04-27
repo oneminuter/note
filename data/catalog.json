@@ -2,6 +2,12 @@
 	"list":[
 		{
 			"classfiy": "linux",
+			"title": "Linux 实现用户间无密码切换",
+			"file":"linuxSwichUserWithoutPass.md",
+			"time": "2019-04-27"
+		},
+		{
+			"classfiy": "linux",
 			"title": "实行 sudo 不需要密码",
 			"file":"runSuodCmdWithoutPassword.md",
 			"time": "2019-04-27"
