@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "docker",
+			"title": "docker 服务启动、重启、停止",
+			"file":"dockerServiceStartReloadStop.md",
+			"time": "2019-04-27"
+		},
+		{
 			"classfiy": "linux",
 			"title": "centos 删除旧的内核",
 			"file":"centosRemoveOldKernel.md",
