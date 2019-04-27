@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "实行 sudo 不需要密码",
+			"file":"runSuodCmdWithoutPassword.md",
+			"time": "2019-04-27"
+		},
+		{
 			"classfiy": "docker",
 			"title": "docker 安装",
 			"file":"dockerInstall.md",
