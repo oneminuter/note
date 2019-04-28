@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "mysql",
+			"title": "mysqld 启动报错",
+			"file":"mysqldStartErr.md",
+			"time": "2019-04-28"
+		},
+		{
 			"classfiy": "linux",
 			"title": "Linux 实现用户间无密码切换",
 			"file":"linuxSwichUserWithoutPass.md",
