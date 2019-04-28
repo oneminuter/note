@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "tar 命令使用",
+			"file":"tarCommand.md",
+			"time": "2019-04-28"
+		},
+		{
 			"classfiy": "mysql",
 			"title": "mysqld 启动报错",
 			"file":"mysqldStartErr.md",
