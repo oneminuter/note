@@ -2,6 +2,12 @@
 	"list":[
 		{
 			"classfiy": "linux",
+			"title": "wc 统计命令的使用",
+			"file":"wcCommand.md",
+			"time": "2019-04-28"
+		},
+		{
+			"classfiy": "linux",
 			"title": "tar 命令使用",
 			"file":"tarCommand.md",
 			"time": "2019-04-28"
