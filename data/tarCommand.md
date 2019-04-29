@@ -58,12 +58,14 @@ zip jpg.zip *.jpg //zip格式的压缩，需要先下载zip for linux
 ```
 
 ## 解压
+```
 tar –xvf file.tar //解压 tar包
 tar -xzvf file.tar.gz //解压tar.gz
 tar -xjvf file.tar.bz2   //解压 tar.bz2
 tar –xZvf file.tar.Z   //解压tar.Z
 unrar e file.rar //解压rar
 unzip file.zip //解压zip
+```
 
 ## 总结
 - *.tar 用 tar –xvf 解压
