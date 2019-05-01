@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "mac",
+			"title": "mac 上安装 sshpass",
+			"file":"installSshpassOnMac.md",
+			"time": "2019-04-30"
+		},
+		{
 			"classfiy": "linux",
 			"title": "wc 统计命令的使用",
 			"file":"wcCommand.md",
