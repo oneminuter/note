@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "shell",
+			"title": "获取本机公网ip",
+			"file":"getPublicIp.md",
+			"time": "2019-05-10"
+		},
+		{
 			"classfiy": "mac",
 			"title": "mac 上安装 sshpass",
 			"file":"installSshpassOnMac.md",
