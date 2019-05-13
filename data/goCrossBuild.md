@@ -13,7 +13,7 @@ go build hello.go
 ```
 
 ## 参数解析
-`GOOS`：目标操作系统
+`GOOS`：目标操作系统  
 `GOARCH`：目标操作系统的架构
 
 | OS | ARCH |
