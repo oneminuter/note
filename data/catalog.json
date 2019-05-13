@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "go",
+			"title": "go 交叉编译",
+			"file":"goCrossBuild.md",
+			"time": "2019-05-13"
+		},
+		{
 			"classfiy": "shell",
 			"title": "获取本机公网ip",
 			"file":"getPublicIp.md",
