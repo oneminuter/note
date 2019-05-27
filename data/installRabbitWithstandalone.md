@@ -29,4 +29,4 @@ tar -xvf rabbitmq-server-mac-standalone-3.7.15.tar.xz
 ./rabbitmq-plugins enable rabbitmq_management
 ```
 
-然后就可以访问 `http://localhost:15672` web 管理
+web 管理访问 `http://localhost:15672` 

@@ -3,7 +3,7 @@
 		{
 			"classfiy": "rabbitMQ",
 			"title": "standalone 方式安装 rabbitMQ",
-			"file":"installRabbitWithstandalone.md.md",
+			"file":"installRabbitWithstandalone.md",
 			"time": "2019-05-27"
 		},
 		{
