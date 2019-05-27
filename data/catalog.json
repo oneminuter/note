@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "rabbitMQ",
+			"title": "standalone 方式安装 rabbitMQ",
+			"file":"installRabbitWithstandalone.md.md",
+			"time": "2019-05-27"
+		},
+		{
 			"classfiy": "go",
 			"title": "go 交叉编译",
 			"file":"goCrossBuild.md",
