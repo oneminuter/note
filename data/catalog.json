@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "git",
+			"title": "git tag 打标签",
+			"file":"gitTag.md",
+			"time": "2019-06-17"
+		},
+		{
 			"classfiy": "rabbitMQ",
 			"title": "standalone 方式安装 rabbitMQ",
 			"file":"installRabbitWithstandalone.md",
