@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "redis",
+			"title": "redis集群配置",
+			"file":"redisClusterConf.md",
+			"time": "2019-06-26"
+		},
+		{
 			"classfiy": "git",
 			"title": "git tag 打标签",
 			"file":"gitTag.md",
