@@ -1,6 +1,18 @@
 {
 	"list":[
 		{
+			"classfiy": "go",
+			"title": "mongo 常用命令",
+			"file":"mongoCommonlyCmd.md",
+			"time": "2019-06-28"
+		},
+		{
+			"classfiy": "go",
+			"title": "go get 拉取自定义内网代码",
+			"file":"goGetInlineGitlab.md",
+			"time": "2019-06-28"
+		},
+		{
 			"classfiy": "redis",
 			"title": "redis集群配置",
 			"file":"redisClusterConf.md",
@@ -62,7 +74,7 @@
 		},
 		{
 			"classfiy": "linux",
-			"title": "实行 sudo 不需要密码",
+			"title": "实现 sudo 不需要密码",
 			"file":"runSuodCmdWithoutPassword.md",
 			"time": "2019-04-27"
 		},
