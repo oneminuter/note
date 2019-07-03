@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "mysql",
+			"title": "mysql添加索引",
+			"file":"mysqlAddIndex.md",
+			"time": "2019-07-03"
+		},
+		{
 			"classfiy": "go",
 			"title": "mongo 常用命令",
 			"file":"mongoCommonlyCmd.md",
