@@ -1,6 +1,18 @@
 {
 	"list":[
 		{
+			"classfiy": "ssdb",
+			"title": "ssdb 安装",
+			"file":"installSSDB.md",
+			"time": "2019-07-10"
+		},
+		{
+			"classfiy": "linux",
+			"title": "centos 删掉 docker0 虚拟网卡",
+			"file":"centosRemoveDocker0.md",
+			"time": "2019-07-10"
+		},
+		{
 			"classfiy": "mysql",
 			"title": "mysql添加索引",
 			"file":"mysqlAddIndex.md",
