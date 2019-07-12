@@ -1,9 +1,11 @@
 # kafka 搭建集群
 
 ## 复制三分 zookeeper 节点配置
+```shell
 cp config/zookeeper.properties config/zookeeper.2181.properties
 cp config/zookeeper.properties config/zookeeper.2182.properties
 cp config/zookeeper.properties config/zookeeper.2183.properties
+```
 
 ## 修改 zookeeper 配置
 config/zookeeper.2181.properties
