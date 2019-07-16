@@ -9,3 +9,10 @@ cluster-node-timeout 5000
 appendonly yes
 protected-mode no
 ```
+
+# 如果是 docker 部署，需要加
+```shell
+cluster-announce-ip 0.0.0.0 //要宣布的IP地址。
+cluster-announce-port 7000 //要宣布的数据端口。
+cluster-announce-bus-port 17000 //要宣布的集群总线端口
+```

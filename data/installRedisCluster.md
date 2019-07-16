@@ -14,6 +14,7 @@ cluster-enabled  yes                   //开启集群  把注释#去掉
 cluster-config-file  nodes_7000.conf   //集群的配置  配置文件首次启动自动生成 7000,7001,7002
 cluster-node-timeout  15000            //请求超时  默认15秒，可自行设置
 appendonly  yes                        //aof日志开启  有需要就开启，它会每次写操作都记录一条日志　
+protected-mode no
 ```
 
 ## 分别启动 redis
