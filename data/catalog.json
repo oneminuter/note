@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "vim 保存提权",
+			"file":"vimSaveRaisePrivilege.md",
+			"time": "2019-07-17"
+		},
+		{
 			"classfiy": "go",
 			"title": "git clone 替代 go get 不到的包",
 			"file":"gitCloneReplaceGoGet.md",
