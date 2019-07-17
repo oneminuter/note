@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "mongo",
+			"title": "mongo 集群搭建",
+			"file":"installMongoCluster.md",
+			"time": "2019-07-17"
+		},
+		{
 			"classfiy": "linux",
 			"title": "vim 保存提权",
 			"file":"vimSaveRaisePrivilege.md",
