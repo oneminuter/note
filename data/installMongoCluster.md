@@ -292,13 +292,13 @@ for(var i=0; i<1000; i++){
                 "bookId" : "BBK-" + i + "-" + j,
                 "type" : "Revision",
                 "version" : "IricSoneVB0001",
-                "title" : "Jackson's Life",
+                "title" : "oneminuter's Life",
                 "subCount" : 10,
-                "location" : "China CN Shenzhen Futian District",
+                "location" : "China CN GuiZhou PingTang District",
                 "author" : {
-                      "name" : 50,
-                      "email" : "RichardFoo@yahoo.com",
-                      "gender" : "female"
+                      "name" : "oneminuter",
+                      "email" : "oneminuter@163.com",
+                      "gender" : "male"
                 },
                 "createTime" : new Date()
             });
