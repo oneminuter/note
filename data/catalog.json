@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "centos 配置连接无线网络",
+			"file":"centosConnectWireless.md",
+			"time": "2019-07-21"
+		},
+		{
 			"classfiy": "mongo",
 			"title": "mongo 集群搭建",
 			"file":"installMongoCluster.md",
