@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "git",
+			"title": "git stash 存储",
+			"file":"gitStashCmd.md",
+			"time": "2019-07-26"
+		},
+		{
 			"classfiy": "linux",
 			"title": "centos 配置连接无线网络",
 			"file":"centosConnectWireless.md",
