@@ -11,3 +11,5 @@ govendor add +external
 ```
 
 然后就可以 `go build` 
+
+注意 `govendor init` 必须在入口文件或目录下执行，表示编译时优先从当前的 `vendor` 目录下查找相依包
