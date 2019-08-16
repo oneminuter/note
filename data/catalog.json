@@ -43,15 +43,15 @@
 			"time": "2019-07-11"
 		},
 		{
-			"classfiy": "linux",
-			"title": "查看磁盘 io 使用情况",
-			"file":"linuxShowDiskUsed.md",
-			"time": "2019-07-11"
-		},
-		{
 			"classfiy": "kafka",
 			"title": "kafka 安装",
 			"file":"installKafka.md",
+			"time": "2019-07-11"
+		},
+		{
+			"classfiy": "linux",
+			"title": "查看磁盘 io 使用情况",
+			"file":"linuxShowDiskUsed.md",
 			"time": "2019-07-11"
 		},
 		{
