@@ -37,7 +37,7 @@
 				li.onclick = function() {
 					page.getNoteMD(data[i].file);
 				}
-				li.innerHTML = ['<a href="javascript:;">' + data[i].title + '</a>',
+				li.innerHTML = ['<a>' + data[i].title + '</a>',
 								'<label>' + data[i].classfiy + '</label>',
 								'<span>' + data[i].time + '</span>'].join("");
 				document.querySelector(".container ul").appendChild(li);

@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "修改系统打开文件最大数",
+			"file":"modifyMaxOpenFiles.md",
+			"time": "2019-08-21"
+		},
+		{
 			"classfiy": "golang",
 			"title": "go 运行时报包冲突",
 			"file":"goRunWithConflict.md",

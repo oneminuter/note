@@ -31,6 +31,7 @@ img{
 }
 .container ul li a{
 	text-decoration: underline;
+	color: rgb(0, 0, 238);
 }
 .container ul li label{
 	border: 1px solid #03A9F4;
