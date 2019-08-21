@@ -28,7 +28,9 @@ leveldb:
 在 leveldb 下配置 max_open_files ，再重启 ssdb
 
 ## 拓展
-- 系统全局文件大小也有相应办法调整
+
+#### 系统全局文件大小也有相应办法调整
+
 ```
 # 修改/etc/sysctl.conf
 # 加入
