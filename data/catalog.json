@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "mysql",
+			"title": "mysql 带用户启动",
+			"file":"mysqlStartWithUser.md",
+			"time": "2019-09-04"
+		},
+		{
 			"classfiy": "linux",
 			"title": "查看系统配置",
 			"file":"viewSystemConfig.md",
