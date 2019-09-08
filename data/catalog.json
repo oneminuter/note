@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "nginx",
+			"title": "nginx 配置 ssl",
+			"file":"nginxConfSSL.md",
+			"time": "2019-09-08"
+		},
+		{
 			"classfiy": "mysql",
 			"title": "mysql 带用户启动",
 			"file":"mysqlStartWithUser.md",
