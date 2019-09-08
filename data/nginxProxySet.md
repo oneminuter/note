@@ -10,21 +10,16 @@ server {
             proxy_set_header Host $host;
             proxy_set_header X-Real-IP $remote_addr; 
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    　　　　　　proxy_connect_timeout 90;
-　　　　　　　　proxy_send_timeout 90;
-　　　　　　　　proxy_read_timeout 90;
-　　　　　　　　proxy_buffer_size 4k;
-　　　　　　　　proxy_buffers 4 32k;
-　　　　　　　　proxy_busy_buffers_size 64k;
-　　　　　　　　proxy_temp_file_write_size 64k;
-　　　　　　　　proxy_redirect off;
-　　　　　　　　proxy_set_header Host $host;
-　　　　　　　　proxy_set_header X-Real-IP $remote_addr;
-　　　　　　　　proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-
-　　　　　　　　proxy_set_header http_user_agent $http_user_agent;    //判断访问端是苹果，安卓，win还是mac
-
-　　　　　　　　proxy_next_upstream http_502 http_504 http_503 error timeout invalid_header;  //请求出错后，转向下一个节点
+    　　　　　proxy_connect_timeout 90;
+            proxy_send_timeout 90;
+            proxy_read_timeout 90;
+            proxy_buffer_size 4k;
+            proxy_buffers 4 32k;
+            proxy_busy_buffers_size 64k;
+            proxy_temp_file_write_size 64k;
+            proxy_redirect off;
+            proxy_set_header http_user_agent $http_user_agent;    //判断访问端是苹果，安卓，win还是mac
+            proxy_next_upstream http_502 http_504 http_503 error timeout invalid_header;  //请求出错后，转向下一个节点
 
         }
         location /status {
