@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "docker",
+			"title": "docker 命令不需要 sudo",
+			"file":"dockerCmdWithoutSudo.md",
+			"time": "2019-09-14"
+		},
+		{
 			"classfiy": "nginx",
 			"title": "nginx 配置 ssl",
 			"file":"nginxConfSSL.md",
