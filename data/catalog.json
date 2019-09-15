@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "ninx",
+			"title": "websocket 报 400 错误",
+			"file":"nginxConfSolveWebsocket400.md",
+			"time": "2019-09-15"
+		},
+		{
 			"classfiy": "docker",
 			"title": "docker 命令不需要 sudo",
 			"file":"dockerCmdWithoutSudo.md",
