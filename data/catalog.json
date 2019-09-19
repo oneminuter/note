@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "go",
+			"title": "go mod 使用 GOPROXY 跳过私有 module",
+			"file":"goModProxyWithoutPrivateModule.md",
+			"time": "2019-09-19"
+		},
+		{
 			"classfiy": "ninx",
 			"title": "websocket 报 400 错误",
 			"file":"nginxConfSolveWebsocket400.md",
