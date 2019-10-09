@@ -1,6 +1,18 @@
 {
 	"list":[
 		{
+			"classfiy": "twemproxy",
+			"title": "twemproxy 安装",
+			"file":"installTwemproxy.md",
+			"time": "2019-10-09"
+		},
+		{
+			"classfiy": "mac",
+			"title": "xcode 依赖软件安装",
+			"file":"macXcodeDependenceInstall.md",
+			"time": "2019-10-09"
+		},
+		{
 			"classfiy": "go",
 			"title": "go mod 使用 GOPROXY 跳过私有 module",
 			"file":"goModProxyWithoutPrivateModule.md",
