@@ -18,7 +18,7 @@ sudo yum install snappy-devel glog-devel
 
 sudo yum install snappy-devel  protobuf-compiler  protobuf-devel bzip2-devel  zlib-devel bzip2
 
-sudo yum install -y glogs
+sudo yum install gflags-devel
 ```
 
 3. 编译
