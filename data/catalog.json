@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "pika",
+			"title": "pika 安装",
+			"file":"installPika.md",
+			"time": "2019-10-10"
+		},
+		{
 			"classfiy": "twemproxy",
 			"title": "twemproxy 安装",
 			"file":"installTwemproxy.md",
