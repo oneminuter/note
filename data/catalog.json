@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "html",
+			"title": "微信浏览器 input 无法输入",
+			"file":"wechatBrowserInput.md",
+			"time": "2019-10-16"
+		},
+		{
 			"classfiy": "pika",
 			"title": "pika 安装",
 			"file":"installPika.md",
