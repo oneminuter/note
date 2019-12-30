@@ -1,6 +1,18 @@
 {
 	"list":[
 		{
+			"classfiy": "mac",
+			"title": "App 在macOS Catalina下提示已损坏无法打开解决办法",
+			"file":"appCannotOpenOnMacOs.md",
+			"time": "2019-12-30"
+		},
+		{
+			"classfiy": "linux",
+			"title": "centos 安装 appach ab 压力测试工具",
+			"file":"installABTestOnCentos.md",
+			"time": "2019-11-18"
+		},
+		{
 			"classfiy": "html",
 			"title": "微信浏览器 input 无法输入",
 			"file":"wechatBrowserInput.md",
