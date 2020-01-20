@@ -19,6 +19,7 @@
 	<meta charset="utf-8">
 	<meta name="keyswords" content="oneminuter,一分钟blog,一分钟日志">
 	<title>oneminuter</title>
+	<link rel="stylesheet" href="http://editor.md.ipandao.com/css/editormd.preview.css">
 	<script type="text/javascript">
 		(function(){
 			//动态加载css,防止浏览器缓存
@@ -46,12 +47,20 @@
 	
 	<section class="content">
 		<a class="close"></a>
-		<div class="context"></div>
+		<!-- <div class="context"></div> -->
+		<div id="test-editormd-view">
+           <textarea style="display:none;" name="test-editormd-markdown-doc"></textarea>               
+        </div>
 	</section>
 
 
 
-	<script type="text/javascript" src="js/marked.min.js"></script>
+	<!-- <script type="text/javascript" src="js/marked.min.js"></script> -->
+	<script type="text/javascript" src="http://editor.md.ipandao.com/examples/js/jquery.min.js"></script>
+	<script type="text/javascript" src="http://editor.md.ipandao.com/editormd.js"></script>
+	<script type="text/javascript" src="http://editor.md.ipandao.com/lib/marked.min.js"></script>
+	<script type="text/javascript" src="http://editor.md.ipandao.com/lib/prettify.min.js"></script>
+
 	<script type="text/javascript" src="js/util.js"></script>
 	<script type="text/javascript">
 		(function(){
