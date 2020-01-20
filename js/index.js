@@ -62,7 +62,6 @@
 		//渲染内容
 		renderContent: function(text) {
 			let content = document.querySelector(".content");
-			// content.querySelector(".context").innerHTML = marked(text);
 			document.querySelector("#test-editormd-view").innerHTML = "";
 		    testView = editormd.markdownToHTML("test-editormd-view", {
             	markdown: text ,//+ "\r\n" + $("#append-test").text(),
@@ -81,8 +80,6 @@
 				// flowChart       : true,  // 默认不解析
 				// sequenceDiagram : true,  // 默认不解析
         	});
-        	console.log(testView)
-
 			content.classList.add("show");
 		},
 	};
