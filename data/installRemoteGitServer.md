@@ -1,5 +1,7 @@
 # 搭建 git 服务器
 
+[TOC]
+
 ## 第一步，安装 `git`
 ```
 sudo yum install -y git

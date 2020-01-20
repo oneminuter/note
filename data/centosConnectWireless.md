@@ -1,5 +1,7 @@
 # centos 配置连接无线网络
 
+[TOC]
+
 ## 配置文件路径
 ```shell
 /etc/sysconfig/network-scripts

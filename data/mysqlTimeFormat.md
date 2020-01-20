@@ -1,5 +1,7 @@
 # Mysql 时间格式化
 
+[TOC]
+
 ## 时间转字符串
 ```shell
 SELECT  date_format(now(), "%Y-%m-%d %H:%i:%s %W");

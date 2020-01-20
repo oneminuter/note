@@ -1,5 +1,7 @@
 # 让 Linux 系统执行 sudo 时不用输密码
 
+[TOC]
+
 ## 编辑 /etc/sudoers
 打开终端，先以 root 身份登录, 然后执行
 ```

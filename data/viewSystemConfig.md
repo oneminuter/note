@@ -1,5 +1,7 @@
 # linux 查看系统配置
 
+[TOC]
+
 ## 查看系统版本
 ```shell
 rpm -q centos-release

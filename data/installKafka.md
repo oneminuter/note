@@ -1,5 +1,7 @@
 # kafka 安装
 
+[TOC]
+
 ## 下载
 [官网](http://kafka.apache.org/downloads)
 下载 .tgz 包到服务器

@@ -1,5 +1,7 @@
 # mongo 常用命令
 
+[TOC]
+
 ## 连接 mongo 
 ```shell
 ./bin/mongo --host [host] --port 37017 --username [user] --password [password]

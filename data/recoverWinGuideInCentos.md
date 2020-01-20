@@ -1,5 +1,7 @@
 # centos 7 里恢复 window 引导
 
+[TOC]
+
 ## 在CentOS7中需要配置/boot/grub2/grub.cfg
 
 ```shell

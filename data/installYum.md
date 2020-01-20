@@ -1,5 +1,7 @@
 # Centos 安装yum
 
+[TOC]
+
 ## [下载:http://yum.baseurl.org/download](http://yum.baseurl.org/download)
 
 以 3.4 为例

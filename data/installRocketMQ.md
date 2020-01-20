@@ -1,5 +1,7 @@
 # 手动搭建 RocketMQ
 
+[TOC]
+
 ## 安装 JDK
 建议安装 jdk 1.8
 

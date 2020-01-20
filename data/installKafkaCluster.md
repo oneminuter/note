@@ -1,5 +1,7 @@
 # kafka 搭建集群
 
+[TOC]
+
 ## 复制三分 zookeeper 节点配置
 ```shell
 cp config/zookeeper.properties config/zookeeper.2181.properties

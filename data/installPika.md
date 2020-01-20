@@ -1,5 +1,7 @@
 # pika 数据库安装
 
+[TOC]
+
 ## 介绍
 Pika 是一个可持久化的大容量 redis 存储服务，兼容 string、hash、list、zset、set 的绝大部分接口(兼容详情)，解决 redis 由于存储数据量巨大而导致内存不够用的容量瓶颈，并且可以像 redis 一样，通过 slaveof 命令进行主从备份，支持全同步和部分同步，pika 还可以用在 twemproxy 或者 codis 中来实现静态数据分片
 

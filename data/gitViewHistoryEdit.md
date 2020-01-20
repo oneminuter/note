@@ -1,5 +1,7 @@
 # git 查看文件修改历史
 
+[TOC]
+
 ## 显示文件的每一行最后的修改
 ```shell
 git blame [file]

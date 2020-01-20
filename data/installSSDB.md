@@ -1,5 +1,7 @@
 # ssdb 安装
 
+[TOC]
+
 ```shell
 wget --no-check-certificate https://github.com/ideawu/ssdb/archive/master.zip
 unzip master

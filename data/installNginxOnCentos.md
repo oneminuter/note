@@ -1,5 +1,7 @@
 # centos 安装 Nginx
 
+[TOC]
+
 ## gcc 安装
 ```shell
 yum install gcc-c++

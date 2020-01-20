@@ -1,5 +1,7 @@
 # git stash 存储
 
+[TOC]
+
 ## 存储当前的变更
 ```shell
 git stash

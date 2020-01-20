@@ -1,5 +1,7 @@
 # 升级node版本
 
+[TOC]
+
 ## 产看node版本，没安装的请先安装
 ```shell
 node -v

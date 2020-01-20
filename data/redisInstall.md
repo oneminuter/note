@@ -1,5 +1,7 @@
 # centos 7 安装 redis
 
+[TOC]
+
 ## 下载
 [官网下载](https://redis.io/download)
 

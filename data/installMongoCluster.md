@@ -1,5 +1,7 @@
 # mongo 集群搭建
 
+[TOC]
+
 单机搭建 mongodb 分布式集群(副本集 + 分片集群)
 
 在同一个 vm 启动由两个分片组成的分布式集群，每个分片都是一个 PSS(Primary-Secondary-Secondary) 模式的数据副本集；

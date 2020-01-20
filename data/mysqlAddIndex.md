@@ -1,5 +1,7 @@
 # mysql添加索引
 
+[TOC]
+
 ## 添加PRIMARY KEY（主键索引）
 ```shell
 ALTER TABLE `table_name` ADD PRIMARY KEY ( `column` ) 

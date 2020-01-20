@@ -1,5 +1,7 @@
 # 启动 mysql 报错
 
+[TOC]
+
 ## 报错信息
 ```
 Please read "Security" section of the manual to find out how to run mysqld as root!

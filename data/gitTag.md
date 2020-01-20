@@ -1,5 +1,7 @@
 # git tag 打标签
 
+[TOC]
+
 ## 列显已有的标签
 ```shell
 git tag

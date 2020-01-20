@@ -1,5 +1,7 @@
 # rabbitMQ standalone 安装
 
+[TOC]
+
 以 3.7.15 为例
 
 ## 下载 rabbitMQ
