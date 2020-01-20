@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "RocketMQ",
+			"title": "手动搭建 RocketMQ",
+			"file":"installRocketMQ.md",
+			"time": "2020-01-20"
+		},
+		{
 			"classfiy": "mac",
 			"title": "App 在macOS Catalina下提示已损坏无法打开解决办法",
 			"file":"appCannotOpenOnMacOs.md",
