@@ -2,6 +2,12 @@
 	"list":[
 		{
 			"classfiy": "RocketMQ",
+			"title": "docker 搭建 RocketMQ",
+			"file":"installRocketMQWithDocker.md",
+			"time": "2020-01-20"
+		},
+		{
+			"classfiy": "RocketMQ",
 			"title": "手动搭建 RocketMQ",
 			"file":"installRocketMQ.md",
 			"time": "2020-01-20"
