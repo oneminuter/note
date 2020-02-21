@@ -3,4 +3,5 @@
 ```shell
 curl icanhazip.com
 curl ifconfig.me
+curl cip.cc
 ```
