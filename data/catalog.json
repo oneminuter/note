@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "docker",
+			"title": "docker-compose 启动带密码的 redis",
+			"file":"dockerComposeBuildRedisWithAuth.md",
+			"time": "2020-02-21"
+		},
+		{
 			"classfiy": "RocketMQ",
 			"title": "docker 搭建 RocketMQ",
 			"file":"installRocketMQWithDocker.md",
