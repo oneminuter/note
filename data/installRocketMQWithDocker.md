@@ -9,43 +9,41 @@
 version: "3"
 services:
   namesrv:
-    image: rocketmqinc/rocketmq-namesrv:4.5.0-alpine
+    image: rocketmqinc/rocketmq
     container_name: rmq-namesrv
     ports:
       - 9876:9876
     volumes:
-      - /opt/rocketmq/rmqnamesrv/logs:/home/rocketmq/logs
-      - /opt/rocketmq/rmqnamesrv/store:/home/rocketmq/store
+      - /opt/rocketmq/rmqnamesrv/logs:/root/logs/rocketmqlogs
     command: sh mqnamesrv
   broker:
-    image: rocketmqinc/rocketmq-broker:4.5.0-alpine
+    image: rocketmqinc/rocketmq
     container_name: rmq-broker
     ports:
       - 10909:10909
       - 10911:10911
       - 10912:10912
     volumes:
-      - /opt/rocketmq/rmqbroker/logs:/home/rocketmq/logs
-      - /opt/rocketmq/rmqbroker/store:/home/rocketmq/store
-      - /opt/rocketmq/rmqbroker/conf/broker.conf:/home/rocketmq/rocketmq-4.5.0/conf/broker.conf
-    command: sh mqbroker -n 192.168.4.173:9876 -c ../conf/broker.conf
+      - /opt/rocketmq/rmqbroker/logs:/root/logs/rocketmqlogs
+      - /opt/rocketmq/rmqbroker/conf/broker.conf:/opt/rocketmq-4.4.0/conf/broker.conf
+    command: sh mqbroker -c ../conf/broker.conf
     environment:
       - JAVA_HOME=/usr/lib/jvm/jre
   console:
     image: styletang/rocketmq-console-ng
     container_name: rmq-console
     ports:
-      - 8080:8080
+      - 9090:8080
     environment:
-      - JAVA_OPTS= -Dlogging.level.root=info  -Drocketmq.namesrv.addr=192.168.4.173:9876
+      - JAVA_OPTS= -Dlogging.level.root=info  -Drocketmq.namesrv.addr=192.168.4.55:9876;192.168.4.56:9876;192.168.4.57:9876
       - Dcom.rocketmq.sendMessageWithVIPChannel=false
 ```
-注：里面的相关 ip 192.168.4.173 为我本地 id , 实际部署，需改为服务器的 ip
+注：里面的相关 ip 192.168.4.* 为我本地 ip , 实际部署，需改为服务器的 ip
 
 ### broker.conf 配置文件
 ```
-namesrvAddr=192.168.4.173:9876
-brokerIP1=192.168.4.173
+namesrvAddr=192.168.4.55:9876;192.168.4.56:9876;192.168.4.57:9876
+brokerIP1=192.168.4.55
 brokerClusterName = DefaultCluster
 brokerName = broker-a
 brokerId = 0
