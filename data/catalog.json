@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "Ubuntu 安装 rpm 包",
+			"file":"ubuntuInstallRmpPkg.md",
+			"time": "2020-02-24"
+		},
+		{
 			"classfiy": "docker",
 			"title": "docker-compose 启动带密码的 redis",
 			"file":"dockerComposeBuildRedisWithAuth.md",
