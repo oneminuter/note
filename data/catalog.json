@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "docker",
+			"title": "linux 安装 docker-compose",
+			"file":"installDockerCompose.md",
+			"time": "2020-04-04"
+		},
+		{
 			"classfiy": "linux",
 			"title": "Ubuntu 安装 rpm 包",
 			"file":"ubuntuInstallRmpPkg.md",
