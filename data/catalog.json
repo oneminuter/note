@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "linux 同步系统时间",
+			"file":"linuxSyncSystemTime.md",
+			"time": "2020-04-07"
+		},
+		{
 			"classfiy": "docker",
 			"title": "linux 安装 docker-compose",
 			"file":"installDockerCompose.md",
