@@ -36,7 +36,7 @@ server {
 }
 ```
 
-nginx 可以使用 docker 安装, docker-compose.yml 安装如下
+nginx 可以使用 docker 安装, docker-compose.yml 配置如下
 ```
 version: '2'
 services:
@@ -50,7 +50,7 @@ services:
       - /opt/nginx/conf/conf.d:/etc/nginx/conf.d
       - /opt/nginx/log:/var/log/nginx
     ports:
-      - 90:80
+      - 80:80
       - 9090:9090  # 和上面 nginx.conf 配置的监听端口一致
     restart: always
 ```
