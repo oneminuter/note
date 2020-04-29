@@ -2,6 +2,12 @@
 	"list":[
 		{
 			"classfiy": "nginx",
+			"title": "go 集成 swagger",
+			"file":"goIntegrateSwagger.md",
+			"time": "2020-04-29"
+		},
+		{
+			"classfiy": "nginx",
 			"title": "nginx 做 grpc 负载均衡",
 			"file":"grpcLoadBalanceWithNginx.md",
 			"time": "2020-04-23"
