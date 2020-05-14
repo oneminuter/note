@@ -1,7 +1,13 @@
 {
 	"list":[
 		{
-			"classfiy": "nginx",
+			"classfiy": "Sublime Text",
+			"title": "Sublime Text 3 安装 HTML-CSS-JS Prettify 插件",
+			"file":"sublimeInstallHtmlCssJsPrettifyPlugin.md",
+			"time": "2020-05-14"
+		},
+		{
+			"classfiy": "go",
 			"title": "go 集成 swagger",
 			"file":"goIntegrateSwagger.md",
 			"time": "2020-04-29"
