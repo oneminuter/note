@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "etcd",
+			"title": "docker-compose 搭建 etcd 集群",
+			"file":"installEtcdClusterWithDockerCompose.md",
+			"time": "2020-05-15"
+		},
+		{
 			"classfiy": "Sublime Text",
 			"title": "Sublime Text 3 安装 HTML-CSS-JS Prettify 插件",
 			"file":"sublimeInstallHtmlCssJsPrettifyPlugin.md",
