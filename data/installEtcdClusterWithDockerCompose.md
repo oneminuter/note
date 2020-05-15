@@ -1,5 +1,7 @@
 # docker-compose 搭建 etcd 集群
 
+单机上 docker 搭建 etcd 集群
+
 ## docker-compose.yml
 ```
 version: '2'
@@ -11,8 +13,8 @@ services:
       - ETCD_NAME=etcd_1
       - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://${THIS_IP}:2380
       - ETCD_LISTEN_PEER_URLS=http://0.0.0.0:2380
-#      - ETCD_ADVERTISE_CLIENT_URLS=http://${THIS_IP}:2379
-#      - ETCD_LISTEN_CLIENT_URLS=http://${THIS_IP}:2379
+      - ETCD_ADVERTISE_CLIENT_URLS=http://${THIS_IP}:2379
+      - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379
       - ETCD_INITIAL_CLUSTER=etcd_1=http://${THIS_IP}:2380,etcd_2=http://${THIS_IP}:3380,etcd_3=http://${THIS_IP}:4380
       - ETCD_INITIAL_CLUSTER_STATE=new
       - ETCD_INITIAL_CLUSTER_TOKEN=token-01
@@ -30,11 +32,11 @@ services:
     environment:
       - ETCD_DATA_DIR=/etcd/data
       - ETCD_NAME=etcd_1
-      - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://${THIS_IP}:2380
+      - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://${THIS_IP}:3380
       - ETCD_LISTEN_PEER_URLS=http://0.0.0.0:3380
-#      - ETCD_ADVERTISE_CLIENT_URLS=http://${THIS_IP}:3379
-#      - ETCD_LISTEN_CLIENT_URLS=http://${THIS_IP}:3379
-      - ETCD_INITIAL_CLUSTER=etcd_1=http://${THIS_IP}:2380,etcd_2=http://${THIS_IP}:3380,etcd_3=http://${THIS_IP}:4380
+      - ETCD_ADVERTISE_CLIENT_URLS=http://${THIS_IP}:3379
+      - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:3379
+      - ETCD_INITIAL_CLUSTER=etcd_1=http://${THIS_IP}:3380,etcd_2=http://${THIS_IP}:2380,etcd_3=http://${THIS_IP}:4380
       - ETCD_INITIAL_CLUSTER_STATE=new
       - ETCD_INITIAL_CLUSTER_TOKEN=token-01
       - ETCD_AUTO_COMPACTION_RETENTION=1
@@ -51,11 +53,11 @@ services:
     environment:
       - ETCD_DATA_DIR=/etcd/data
       - ETCD_NAME=etcd_1
-      - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://${THIS_IP}:2380
+      - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://${THIS_IP}:4380
       - ETCD_LISTEN_PEER_URLS=http://0.0.0.0:4380
-#      - ETCD_ADVERTISE_CLIENT_URLS=http://${THIS_IP}:4379
-#      - ETCD_LISTEN_CLIENT_URLS=http://${THIS_IP}:4379
-      - ETCD_INITIAL_CLUSTER=etcd_1=http://${THIS_IP}:2380,etcd_2=http://${THIS_IP}:3380,etcd_3=http://${THIS_IP}:4380
+      - ETCD_ADVERTISE_CLIENT_URLS=http://${THIS_IP}:4379
+      - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:4379
+      - ETCD_INITIAL_CLUSTER=etcd_1=http://${THIS_IP}:4380,etcd_2=http://${THIS_IP}:3380,etcd_3=http://${THIS_IP}:2380
       - ETCD_INITIAL_CLUSTER_STATE=new
       - ETCD_INITIAL_CLUSTER_TOKEN=token-01
       - ETCD_AUTO_COMPACTION_RETENTION=1
@@ -68,6 +70,7 @@ services:
     volumes:
       - ./data/etcd_3:/etcd/data
 ```
+
 
 ## 启动
 
@@ -91,3 +94,6 @@ docker-compose up -d
 - initial-cluster-token：集群的ID
 - initial-cluster：集群中所有节点
 - initial-cluster-state：集群状态，new为新创建集群，existing为已存在的集群etcd 默认存储大小限制是 2GB, 可以通过 --quota-backend-bytes 标记配置，最大支持 8GB
+
+个人总结：带有 advertise 的，即为告诉其他节点的，配置为其他节点能访问的完整 url
+注意点：关于 ETCD_INITIAL_CLUSTER 的配置，把本机的放在首位，要不然只能启动第一个节点（不知为何）
