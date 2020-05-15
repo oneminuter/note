@@ -82,12 +82,12 @@ docker-compose up -d
 
 
 参数说明：
-– data-dir：指定节点的数据存储目录，若不指定，则默认是当前目录。这些数据包括节点ID，集群ID，集群初始化配置，Snapshot文件，若未指定 –wal-dir，还会存储WAL文件
-– wal-dir：指定节点的was文件存储目录，若指定了该参数，wal文件会和其他数据文件分开存储
-– name：节点名称
-– initial-advertise-peer-urls：告知集群其他节点的URL，tcp2380端口用于集群通信
-– listen-peer-urls：监听URL，用于与其他节点通讯
-– advertise-client-urls：告知客户端的URL, 也就是服务的URL，tcp2379端口用于监听客户端请求
-– initial-cluster-token：集群的ID
-– initial-cluster：集群中所有节点
-– initial-cluster-state：集群状态，new为新创建集群，existing为已存在的集群etcd 默认存储大小限制是 2GB, 可以通过 --quota-backend-bytes 标记配置，最大支持 8GB
+- data-dir：指定节点的数据存储目录，若不指定，则默认是当前目录。这些数据包括节点ID，集群ID，集群初始化配置，Snapshot文件，若未指定 –wal-dir，还会存储WAL文件
+- wal-dir：指定节点的was文件存储目录，若指定了该参数，wal文件会和其他数据文件分开存储
+- name：节点名称
+- initial-advertise-peer-urls：告知集群其他节点的URL，tcp2380端口用于集群通信
+- listen-peer-urls：监听URL，用于与其他节点通讯
+- advertise-client-urls：告知客户端的URL, 也就是服务的URL，tcp2379端口用于监听客户端请求
+- initial-cluster-token：集群的ID
+- initial-cluster：集群中所有节点
+- initial-cluster-state：集群状态，new为新创建集群，existing为已存在的集群etcd 默认存储大小限制是 2GB, 可以通过 --quota-backend-bytes 标记配置，最大支持 8GB
