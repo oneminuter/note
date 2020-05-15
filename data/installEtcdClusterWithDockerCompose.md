@@ -8,6 +8,7 @@ version: '2'
 services:
   etcd_1:
     image: bitnami/etcd:latest
+    container_name: etcd_1
     environment:
       - ETCD_DATA_DIR=/etcd/data
       - ETCD_NAME=etcd_1
@@ -29,6 +30,7 @@ services:
       - ./data/etcd_1:/etcd/data
   etcd_2:
     image: bitnami/etcd:latest
+    container_name: etcd_2
     environment:
       - ETCD_DATA_DIR=/etcd/data
       - ETCD_NAME=etcd_1
@@ -50,6 +52,7 @@ services:
       - ./data/etcd_2:/etcd/data
   etcd_3:
     image: bitnami/etcd:latest
+    container_name: etcd_3
     environment:
       - ETCD_DATA_DIR=/etcd/data
       - ETCD_NAME=etcd_1
