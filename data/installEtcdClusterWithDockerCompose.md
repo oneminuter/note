@@ -86,6 +86,8 @@ echo $THIS_IP
 docker-compose down -v && rm -rf data && docker-compose up -d
 ```
 
+注： 这个命令时是我 Mac 本地对应执行设置内网 ip, 然后重新构建 docker，线上 linux 需另外修改脚本
+
 
 
 参数说明：
