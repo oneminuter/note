@@ -33,7 +33,7 @@ services:
     container_name: etcd_2
     environment:
       - ETCD_DATA_DIR=/etcd/data
-      - ETCD_NAME=etcd_1
+      - ETCD_NAME=etcd_2
       - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://${THIS_IP}:3380
       - ETCD_LISTEN_PEER_URLS=http://0.0.0.0:3380
       - ETCD_ADVERTISE_CLIENT_URLS=http://${THIS_IP}:3379
@@ -55,7 +55,7 @@ services:
     container_name: etcd_3
     environment:
       - ETCD_DATA_DIR=/etcd/data
-      - ETCD_NAME=etcd_1
+      - ETCD_NAME=etcd_3
       - ETCD_INITIAL_ADVERTISE_PEER_URLS=http://${THIS_IP}:4380
       - ETCD_LISTEN_PEER_URLS=http://0.0.0.0:4380
       - ETCD_ADVERTISE_CLIENT_URLS=http://${THIS_IP}:4379
@@ -79,10 +79,11 @@ services:
 
 启动前设置 THIS_IP 变量
 ```
-export THIS_IP=192.168.1.2
+export THIS_IP=`ifconfig en0 | grep inet | grep netmask | awk '{print $2}'`
 
+echo $THIS_IP
 
-docker-compose up -d
+docker-compose down -v && rm -rf data && docker-compose up -d
 ```
 
 
@@ -99,4 +100,4 @@ docker-compose up -d
 - initial-cluster-state：集群状态，new为新创建集群，existing为已存在的集群etcd 默认存储大小限制是 2GB, 可以通过 --quota-backend-bytes 标记配置，最大支持 8GB
 
 个人总结：带有 advertise 的，即为告诉其他节点的，配置为其他节点能访问的完整 url
-注意点：关于 ETCD_INITIAL_CLUSTER 的配置，把本机的放在首位，要不然只能启动第一个节点（不知为何）
+注意点：ETCD_NAME 配置的值要和 ETCD_INITIAL_CLUSTER 里的对应，主要是暴露的端口
