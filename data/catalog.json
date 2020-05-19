@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "mysql",
+			"title": "mysql too many connections 解决方法",
+			"file":"resolveMysqlTooManyConnection.md",
+			"time": "2020-05-19"
+		},
+		{
 			"classfiy": "etcd",
 			"title": "docker-compose 搭建 etcd 集群",
 			"file":"installEtcdClusterWithDockerCompose.md",
