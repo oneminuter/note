@@ -1,6 +1,18 @@
 {
 	"list":[
 		{
+			"classfiy": "docker",
+			"title": "docker network 命令",
+			"file":"dockerNetwork.md",
+			"time": "2020-08-05"
+		},
+		{
+			"classfiy": "docker",
+			"title": "centos 搭建 k8s 集群",
+			"file":"installK8sWithCentos.md",
+			"time": "2020-08-01"
+		},
+		{
 			"classfiy": "mysql",
 			"title": "mysql too many connections 解决方法",
 			"file":"resolveMysqlTooManyConnection.md",
