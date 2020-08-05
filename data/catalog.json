@@ -1,13 +1,25 @@
 {
 	"list":[
 		{
+			"classfiy": "kubernetes",
+			"title": "k8s 访问 Dashboard",
+			"file":"kubectlVisitDashboard.md",
+			"time": "2020-08-05"
+		},
+		{
+			"classfiy": "kubernetes",
+			"title": "本地 kubectl 访问远程 k8s 集群",
+			"file":"kubectlVisitRemoteK8sCluster.md",
+			"time": "2020-08-05"
+		},
+		{
 			"classfiy": "docker",
 			"title": "docker network 命令",
 			"file":"dockerNetwork.md",
 			"time": "2020-08-05"
 		},
 		{
-			"classfiy": "docker",
+			"classfiy": "kubernetes",
 			"title": "centos 搭建 k8s 集群",
 			"file":"installK8sWithCentos.md",
 			"time": "2020-08-01"
