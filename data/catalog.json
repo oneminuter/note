@@ -2,6 +2,12 @@
 	"list":[
 		{
 			"classfiy": "kubernetes",
+			"title": "docker 安装后设置 cgroup 驱动",
+			"file":"setCgroupDriverAfterInstallDocker.md",
+			"time": "2020-08-06"
+		},
+		{
+			"classfiy": "kubernetes",
 			"title": "k8s 访问 Dashboard",
 			"file":"kubectlVisitDashboard.md",
 			"time": "2020-08-05"
