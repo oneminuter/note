@@ -24,7 +24,7 @@ cat > /etc/docker/daemon.json <<EOF
 EOF
 ```
 
-`native.cgroupdriver=systemd` 将 docker 的 cgroup 驱动设为 systemd，这样和 kubelet 使用的 cgroup 驱动一直，这样 k8s 对资源的管理更稳定
+`native.cgroupdriver=systemd` 将 docker 的 cgroup 驱动设为 systemd，这样和 kubelet 使用的 cgroup 驱动一致，这样 k8s 对资源的管理更稳定
 
 ## 重启 docker
 ```

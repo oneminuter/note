@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "nginx",
+			"title": "nginx 负载均衡策略配置",
+			"file":"nginxConfigLoadBalancePolicy.md",
+			"time": "2020-08-24"
+		},
+		{
 			"classfiy": "docker",
 			"title": "安装 docker 私有仓库",
 			"file":"installPrivateDockerRegistry.md",
