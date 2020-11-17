@@ -7,15 +7,20 @@
 </head>
 <body>
 
+	<button onclick="formTrace()">提交</button>
+
 
 <script type="text/javascript">
-	_ks_trace.push({
-		event: 'form', 
-		convertId: 146269, 
-		cb: function(){    
-			console.log('push a form ks-trace')
-		}
-	})
+	function formTrace() {
+		console.log("push a form ks-trace");
+		_ks_trace.push({
+			event: 'form', 
+			convertId: 146269, 
+			cb: function(){    
+				alert('push a form ks-trace success')
+			}
+		})
+	}
 </script>
 </body>
 </html>
