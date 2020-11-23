@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "elasticsearch",
+			"title": "docker 安装 elasticsearch 和 head 插件",
+			"file":"dockerInstallElasticsearch.md",
+			"time": "2020-11-23"
+		},
+		{
 			"classfiy": "k8s",
 			"title": "k8s 错误集锦",
 			"file":"k8sError.md",
