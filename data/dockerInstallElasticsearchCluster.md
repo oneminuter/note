@@ -54,7 +54,7 @@ cluster.initial_master_nodes: ["node01", "node02"]
 http.cors.enabled: true
 http.cors.allow-origin: "*"
 ```
-备注：里面 172.16.22.41 需替换为自己本机的局域网 id
+备注：里面 172.16.22.41 需替换为自己本机的局域网 ip
 
 ## elasticsearch node2 的配置文件内容 `./config/elasticsearch2.yml`
 ```
@@ -67,7 +67,7 @@ cluster.initial_master_nodes: ["node01", "node02"]
 http.cors.enabled: true
 http.cors.allow-origin: "*"
 ```
-备注：里面 172.16.22.41 需替换为自己本机的局域网 id
+备注：里面 172.16.22.41 需替换为自己本机的局域网 ip
 
 
 ## kibana 配置文件内容：`./config/kibana.yml`
@@ -77,7 +77,7 @@ server.host: "0"
 elasticsearch.hosts: [ "http://172.16.22.41:9200" ]
 monitoring.ui.container.elasticsearch.enabled: true
 ```
-备注：里面 172.16.22.41 需替换为自己本机的局域网 id
+备注：里面 172.16.22.41 需替换为自己本机的局域网 ip
 
 ## 启动
 ```
