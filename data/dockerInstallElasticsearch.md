@@ -34,8 +34,6 @@ services:
     container_name: elasticsearch-head
     ports:
       - 9100:9100
-    volumes:
-      - ./plugin/head/app.js:/usr/src/app/_site/app.js
 ```
 
 ## 解决 head 访问跨域问题
@@ -43,11 +41,6 @@ services:
 ```
 http.cors.enabled: true
 http.cors.allow-origin: "*"
-```
-
-2. 修改 head 文件下的 app.js 文件
-```
-this.base_uri = this.config.base_uri || this.prefs.get("app-base_uri") || "http://[es 服务的 ip]:9200"; // 修改此行
 ```
 
 重启镜像即可，让后访问：http://localhost:9100
