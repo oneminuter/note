@@ -1,6 +1,18 @@
 {
 	"list":[
 		{
+			"classfiy": "docker",
+			"title": "minikube 操作",
+			"file":"minikubeOpt.md",
+			"time": "2020-12-13"
+		},
+		{
+			"classfiy": "docker",
+			"title": "卸载 docker 所有磁盘挂载，删除所有镜像和容器",
+			"file":"dockerCleanAll.md",
+			"time": "2020-12-12"
+		},
+		{
 			"classfiy": "elasticsearch",
 			"title": "docker 安装 elasticsearch + kibana 集群",
 			"file":"dockerInstallElasticsearchCluster.md",
