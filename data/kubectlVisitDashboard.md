@@ -17,7 +17,7 @@ http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kube
 
 ## 查看登录 token
 ```
-kubectl -n kube-system describe $(kubectl -n kube-system get secret -n kube-system -o name | grep namespace) | grep token
+kubectl -n kube-system describe $(kubectl -n kube-system get secret -o name | grep namespace) | grep token
 ```
 
 
