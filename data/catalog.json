@@ -1,6 +1,36 @@
 {
 	"list":[
 		{
+			"classfiy": "kvm",
+			"title": "kvm 克隆",
+			"file":"kvmClone.md",
+			"time": "2020-12-26"
+		},
+		{
+			"classfiy": "k8s",
+			"title": "k8s 安装 kubeadm,kubectl,kubelet 使用阿里镜像",
+			"file":"installK8sCliWithAliyunMirrors.md",
+			"time": "2020-12-26"
+		},
+		{
+			"classfiy": "linux",
+			"title": "centos 网路配置相关",
+			"file":"centosConfigNetwork.md",
+			"time": "2020-12-26"
+		},
+		{
+			"classfiy": "kvm",
+			"title": "kvm 常规操作",
+			"file":"installOperate.md",
+			"time": "2020-12-26"
+		},
+		{
+			"classfiy": "kvm",
+			"title": "kvm 安装并创建虚拟机",
+			"file":"installKvm.md",
+			"time": "2020-12-26"
+		},
+		{
 			"classfiy": "docker",
 			"title": "minikube 操作",
 			"file":"minikubeOpt.md",
