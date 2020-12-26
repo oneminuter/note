@@ -1,5 +1,7 @@
 # kvm 安装
 
+[TOC]
+
 ## 查看是否支持虚拟化
 ```
 grep -E 'svm|vmx' /proc/cpuinfo
