@@ -72,7 +72,7 @@ img{
 	display: block;
 	position: absolute;
 	top: 10px;
-    right: 5px;
+    left: 5px;
 	width: 24px;
 	height: 24px;
 	-webkit-transform: rotate(45deg) scale(0);
