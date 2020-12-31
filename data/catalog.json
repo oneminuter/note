@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "frp",
+			"title": "frp 做内网穿透，代理 wss",
+			"file":"frpProxy.md",
+			"time": "2020-12-31"
+		},
+		{
 			"classfiy": "kvm",
 			"title": "kvm 克隆",
 			"file":"kvmClone.md",
