@@ -535,12 +535,6 @@
 			"time": "2018-11-06"
 		},
 		{
-			"classfiy": "code",
-			"title": "极客时间",
-			"file":"jikeTime.md",
-			"time": "2018-10-20"
-		},
-		{
 			"classfiy": "mysql",
 			"title": "mysql链接时报:this authentication plugin is not supported",
 			"file":"mysqlLinkErr.md",
