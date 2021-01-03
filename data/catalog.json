@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "gitlab",
+			"title": "docker 搭建 gitlab",
+			"file":"installGitlabWithDocker.md",
+			"time": "2021-01-02"
+		},
+		{
 			"classfiy": "frp",
 			"title": "frp 做内网穿透，代理 wss",
 			"file":"frpProxy.md",
