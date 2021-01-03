@@ -1,5 +1,5 @@
 ## Note for oneminuter: [http://blog.oneminuter.com](http://blog.oneminuter.com)
-
+note: 个人笔记
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
