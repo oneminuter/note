@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "nginx",
+			"title": "添加、删除路由",
+			"file":"addOrRemoveRoute.md",
+			"time": "2021-01-21"
+		},
+		{
 			"classfiy": "gitlab",
 			"title": "docker 搭建 gitlab",
 			"file":"installGitlabWithDocker.md",
