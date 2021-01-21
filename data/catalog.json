@@ -3,7 +3,7 @@
 		{
 			"classfiy": "nginx",
 			"title": "添加、删除路由",
-			"file":"addOrRemoveRoute.md",
+			"file":"routeAddOrRemove.md",
 			"time": "2021-01-21"
 		},
 		{
@@ -195,7 +195,7 @@
 		{
 			"classfiy": "mac",
 			"title": "App 在macOS Catalina下提示已损坏无法打开解决办法",
-			"file":"appCannotOpenOnMacOs.md",
+			"file":"macOsCannotOpenApp.md",
 			"time": "2019-12-30"
 		},
 		{
