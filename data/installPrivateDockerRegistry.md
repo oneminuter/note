@@ -50,4 +50,8 @@ services:
     restart: always
 ```
 
+## 查看 docker registry 里有哪些镜像
+```
+curl -X GET https://[HOST]/v2/_catalog
+```
 其他配置扩展，如多节点、https 访问，请参考 [官方文档](https://docs.docker.com/registry/)

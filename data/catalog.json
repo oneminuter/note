@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "docker",
+			"title": "解决 docker push: unknown blob",
+			"file":"fixDockerPushUnknownBlob.md",
+			"time": "2021-01-26"
+		},
+		{
 			"classfiy": "nginx",
 			"title": "添加、删除路由",
 			"file":"routeAddOrRemove.md",
