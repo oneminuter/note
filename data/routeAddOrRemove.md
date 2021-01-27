@@ -22,6 +22,12 @@ sudo route -n add 10.244.0.0/16 192.168.1.1
 sudo route delete 10.244/16
 ```
 
+为保证系统/网络重启后，路由依然存在，需要写入静态配置文件 /etc/network/interfaces
+```
+up route add -net 10.244.0.0 netmask 255.255.0.0 gw 192.168.1.1 ens3  (⚠️：ens3 是网卡，以实际为准）
+up route add -net 10.0.0.0 netmask 255.255.255.0 gw 192.168.1.1 ens3
+```
+
 ## 扩展
 
 查看路由表
