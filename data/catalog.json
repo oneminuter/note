@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "miniapp",
+			"title": "解决小程序使用扩展组件找不到问题",
+			"file":"miniappCfgExtendedLibNotFound.md",
+			"time": "2021-04-26"
+		},
+		{
 			"classfiy": "mysql",
 			"title": "mysql 创建数据库时指定字符集 - utf8mb4",
 			"file":"mysqlCreateDatabaseWithUtf8.md",
