@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "git",
+			"title": "找回删除的分支",
+			"file":"reFoundDeletedBranch.md",
+			"time": "2021-05-13"
+		},
+		{
 			"classfiy": "miniapp",
 			"title": "解决小程序使用扩展组件找不到问题",
 			"file":"miniappCfgExtendedLibNotFound.md",
