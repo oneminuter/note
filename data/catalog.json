@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "android",
+			"title": "android 手机运行 go 程序",
+			"file":"runGoInAndroid.md",
+			"time": "2021-06-23"
+		},
+		{
 			"classfiy": "git",
 			"title": "找回删除的分支",
 			"file":"reFoundDeletedBranch.md",
