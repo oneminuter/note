@@ -1,6 +1,18 @@
 {
 	"list":[
 		{
+			"classfiy": "npm",
+			"title": "cnpm 安装",
+			"file":"installNpm.md",
+			"time": "2021-10-20"
+		},
+		{
+			"classfiy": "react",
+			"title": "create-react-app 创建项目提速",
+			"file":"createReactApp.md",
+			"time": "2021-10-20"
+		},
+		{
 			"classfiy": "k8s",
 			"title": "搭建单节点 etcd 和 多节点 etcd 的 k8s 集群",
 			"file":"installHighAvalibleK8s.md",
