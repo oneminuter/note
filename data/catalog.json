@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "docker",
+			"title": "容器时区问题",
+			"file":"dokcerContainerTimeZone.md",
+			"time": "2021-10-26"
+		},
+		{
 			"classfiy": "npm",
 			"title": "cnpm 安装",
 			"file":"installNpm.md",
