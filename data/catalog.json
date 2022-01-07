@@ -1,6 +1,18 @@
 {
 	"list":[
 		{
+			"classfiy": "git",
+			"title": "调整 git 分页方法",
+			"file":"modifyGitPager.md",
+			"time": "2022-01-07"
+		},
+		{
+			"classfiy": "istio",
+			"title": "k8s 安装 istio",
+			"file":"installIstioInK8s.md",
+			"time": "2021-10-27"
+		},
+		{
 			"classfiy": "docker",
 			"title": "容器时区问题",
 			"file":"dokcerContainerTimeZone.md",
