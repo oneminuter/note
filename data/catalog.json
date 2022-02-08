@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "mongo",
+			"title": "docker 搭建 mongo 复制集集群",
+			"file":"installReplicateMongoWithDocker.md",
+			"time": "2022-02-07"
+		},
+		{
 			"classfiy": "git",
 			"title": "调整 git 分页方法",
 			"file":"modifyGitPager.md",
