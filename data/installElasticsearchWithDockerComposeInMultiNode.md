@@ -321,21 +321,21 @@ services:
           "  - name: es01\n"\
           "    dns:\n"\
           "      - es01\n"\
-          "      - 192.168.13.65\n"\
+          "      - 192.168.1.3\n"\
           "    ip:\n"\
-          "      - 192.168.13.65\n"\
+          "      - 192.168.1.3\n"\
           "  - name: es02\n"\
           "    dns:\n"\
           "      - es02\n"\
-          "      - 192.168.13.64\n"\
+          "      - 192.168.1.4\n"\
           "    ip:\n"\
-          "      - 192.168.13.64\n"\
+          "      - 192.168.1.4\n"\
           "  - name: es03\n"\
           "    dns:\n"\
           "      - es03\n"\
-          "      - 192.168.13.63\n"\
+          "      - 192.168.1.5\n"\
           "    ip:\n"\
-          "      - 192.168.13.63\n"\
+          "      - 192.168.1.5\n"\
           > config/certs/instances.yml;
           bin/elasticsearch-certutil cert --silent --pem -out config/certs/certs.zip --in config/certs/instances.yml --ca-cert config/certs/ca/ca.crt --ca-key config/certs/ca/ca.key;
           unzip config/certs/certs.zip -d config/certs;
