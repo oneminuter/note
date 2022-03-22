@@ -1,6 +1,18 @@
 {
 	"list":[
 		{
+			"classfiy": "elasticsearch",
+			"title": "在 3 个节点上搭建 elasticsearch + kibana 本机集群",
+			"file":"installElasticsearchWithDockerComposeInMultiNode.md",
+			"time": "2022-03-22"
+		},
+		{
+			"classfiy": "elasticsearch",
+			"title": "搭建 elasticsearch + kibana 本机集群",
+			"file":"installElasticsearchWithDockerCompose.md",
+			"time": "2022-03-22"
+		},
+		{
 			"classfiy": "mongo",
 			"title": "docker 搭建 mongo 复制集集群",
 			"file":"installReplicateMongoWithDocker.md",
