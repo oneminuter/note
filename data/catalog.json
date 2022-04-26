@@ -2,6 +2,18 @@
 	"list":[
 		{
 			"classfiy": "elasticsearch",
+			"title": "es 学习笔记-mappings",
+			"file":"esStudyMapping.md",
+			"time": "2022-04-26"
+		},
+		{
+			"classfiy": "elasticsearch",
+			"title": "es 学习笔记-索引",
+			"file":"esStudyIndex.md",
+			"time": "2022-04-26"
+		},
+		{
+			"classfiy": "elasticsearch",
 			"title": "在 3 个节点上搭建 elasticsearch + kibana 本机集群",
 			"file":"installElasticsearchWithDockerComposeInMultiNode.md",
 			"time": "2022-03-22"
