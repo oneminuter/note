@@ -1,6 +1,18 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "新服务器基本操作",
+			"file":"initWithNewLinuxEcs.md",
+			"time": "2022-06-02"
+		},
+		{
+			"classfiy": "yarn",
+			"title": "yarn 切换镜像源",
+			"file":"yarnConfigRegistry.md",
+			"time": "2022-05-15"
+		},
+		{
 			"classfiy": "elasticsearch",
 			"title": "es 学习笔记-mappings",
 			"file":"esStudyMapping.md",
