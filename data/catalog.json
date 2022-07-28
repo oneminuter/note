@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "es",
+			"title": "es 知识总结",
+			"file":"esStudy.md",
+			"time": "2022-07-28"
+		},
+		{
 			"classfiy": "linux",
 			"title": "新服务器基本操作",
 			"file":"initWithNewLinuxEcs.md",
