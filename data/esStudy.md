@@ -2,6 +2,8 @@
 
 [TOC]
 
+书籍：《Elasticsearch搜索引擎构建入门与实战》
+
 ## Elasticsearch简介
 Lucene基础之上的分布式准实时搜索引擎
 REST风格的API接口
@@ -282,7 +284,7 @@ keyword
 text
 数值类型: long、integer、short、byte、double、float、half_float、scaled_float 和 unsigned_long
 布尔类型
-布尔类型(date)
+日期(date)
 数组类型
 ```
 # 写入字符串数组数据 
@@ -343,3 +345,101 @@ POST /hotel/_doc/001
   } 
 }  
 ```
+
+## 文档操作
+### 单条写入文档
+```
+POST /${index_name}/_doc/${_id} 
+{   //写入的文档数据 
+    …  
+} 
+```
+也可以不指定文档_id, _id值将由ES自动生成
+```
+POST /${index_name}/_doc 
+{ //写入的文档数据 
+    … 
+} 
+```
+
+### 更新单条文档
+```
+POST /${index_name}/_update/${_id} 
+{ //需要更新的数据，在URL中指定文档_id 
+… 
+}
+```
+
+### upsert
+```
+POST /hotel/_update/001 
+{ 
+  "doc": { 
+    "title": "好再来酒店", 
+    "city": "北京", 
+    "price": 659.45 
+  }, 
+  "upsert": { 
+    "title": "好再来酒店", 
+    "city": "北京", 
+    "price": 659.45 
+  } 
+}
+```
+
+### 根据条件更新文档
+```
+POST /${index_name}/_update_by_query 
+{ 
+ "query": {                   //条件更新的查询条件 
+  … 
+  }, 
+ "script": {                 //条件更新的具体更新脚本代码 
+    … 
+  } 
+}
+```
+```
+POST  /hotel/_update_by_query 
+{ 
+ "query": {                //更新文档的查询条件：城市为北京的文档 
+    "term": { 
+      "city": { 
+        "value": "北京" 
+      } 
+    } 
+  }, 
+ "script": {              //条件更新的更新脚本，将城市改为“上海” 
+    "source": "ctx._source['city']='上海'", 
+    "lang": "painless" 
+  } 
+}
+```
+
+### 删除单条文档
+```
+DELETE /${index_name}/_doc/${_id}
+```
+
+### 根据条件删除文档
+```
+POST /${index_name}/_delete_by_query 
+{                          //删除文档的查询条件 
+  "query": { 
+  … 
+  } 
+}
+```
+```
+POST /hotel/_delete_by_query 
+{ 
+ "query": {                //条件删除文档的查询条件：城市为“北京”的文档 
+    "term": { 
+      "city": { 
+        "value": "北京" 
+      } 
+    } 
+  } 
+} 
+```
+
