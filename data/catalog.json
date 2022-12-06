@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "react for chrome plugin",
+			"title": "react 开发 chrome 插件改造",
+			"file":"reactForChromePlugin.md",
+			"time": "2022-12-06"
+		},
+		{
 			"classfiy": "es",
 			"title": "es 知识总结",
 			"file":"esStudy.md",
