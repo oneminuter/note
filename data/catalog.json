@@ -1,7 +1,13 @@
 {
 	"list":[
 		{
-			"classfiy": "react for chrome plugin",
+			"classfiy": "nginx",
+			"title": "nginx 配置无缓冲输出",
+			"file":"nginxConfigNoBufferOutPut.md",
+			"time": "2023-05-10"
+		},
+		{
+			"classfiy": "react",
 			"title": "react 开发 chrome 插件改造",
 			"file":"reactForChromePlugin.md",
 			"time": "2022-12-06"
