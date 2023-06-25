@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "python",
+			"title": "python 创建虚拟环境",
+			"file":"createPythonEnv.md",
+			"time": "2023-06-25"
+		},
+		{
 			"classfiy": "nginx",
 			"title": "nginx 配置无缓冲输出",
 			"file":"nginxConfigNoBufferOutPut.md",
