@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "git",
+			"title": "git 常用配置",
+			"file":"gitConfig.md",
+			"time": "2023-08-20"
+		},
+		{
 			"classfiy": "python",
 			"title": "python 创建虚拟环境",
 			"file":"createPythonEnv.md",
