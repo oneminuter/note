@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "linux 创建用户",
+			"file":"createUserForLinux.md",
+			"time": "2023-09-07"
+		},
+		{
 			"classfiy": "git",
 			"title": "git 常用配置",
 			"file":"gitConfig.md",
