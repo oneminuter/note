@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "ai",
+			"title": "stable diffusion deforum 生成动画",
+			"file":"stableDiffusionDeforum.md",
+			"time": "2023-09-12"
+		},
+		{
 			"classfiy": "linux",
 			"title": "linux 创建用户",
 			"file":"createUserForLinux.md",
