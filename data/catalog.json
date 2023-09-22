@@ -1,11 +1,18 @@
 {
 	"list":[
 		{
+			"classfiy": "mongo",
+			"title": "mongo 分片启停用 balancer",
+			"file":"startAndStopBalancer.md",
+			"time": "2023-09-22"
+		},
+		{
 			"classfiy": "mac",
 			"title": "mac item2 滚轮不滚动页面修复",
 			"file":"macItem2ScrollFix.md",
 			"time": "2023-09-13"
-		},{
+		},
+		{
 			"classfiy": "ai",
 			"title": "stable diffusion deforum 生成动画",
 			"file":"stableDiffusionDeforum.md",
