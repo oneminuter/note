@@ -2,6 +2,12 @@
 	"list":[
 		{
 			"classfiy": "mongo",
+			"title": "mongo 数据导出导入",
+			"file":"mongoExportAndImport.md",
+			"time": "2023-10-07"
+		},
+		{
+			"classfiy": "mongo",
 			"title": "mongo 分片启停用 balancer",
 			"file":"startAndStopBalancer.md",
 			"time": "2023-09-22"
