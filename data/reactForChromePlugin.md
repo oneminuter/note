@@ -74,7 +74,23 @@ new HtmlWebpackPlugin(
       ),
 ```
 
+### 添加 styled 样式定义
+```
+yarn add styled-components
+```
+导入包
+```
+import styled from 'styled-components';
+
+const Ctn = styled.div`
+  xxx // 这里面写样式
+`
+```
+
+
+
 ### 引入Antd
+注意：如果开发的是 content 插件脚本，是不支持 antd 组件
 antd的引入方式和传统开发一样，这里还是贴一下代码，首先安装一下antd的库：
 ```
 npm install antd --save
