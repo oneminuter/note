@@ -1,7 +1,7 @@
 {
 	"list":[
 		{
-			"classfiy": "webpacket",
+			"classfiy": "webpack",
 			"title": "react 项目编译不输出源映射文件(.map)",
 			"file":"reactBuildWithoutSourceMap.md",
 			"time": "2023-10-10"
