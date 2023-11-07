@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "磁盘挂载",
+			"file":"linuxDiskMount.md",
+			"time": "2023-11-07"
+		},
+		{
 			"classfiy": "webpack",
 			"title": "react 项目编译不输出源映射文件(.map)",
 			"file":"reactBuildWithoutSourceMap.md",
