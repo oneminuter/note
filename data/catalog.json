@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "ffmpeg",
+			"title": "ffmpeg 实现 mp4 转直播推流 & 拉留转推",
+			"file":"ffmpegLivePush.md",
+			"time": "2023-11-14"
+		},
+		{
 			"classfiy": "linux",
 			"title": "磁盘挂载",
 			"file":"linuxDiskMount.md",
