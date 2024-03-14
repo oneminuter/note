@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "nginx",
+			"title": "使用 nginx 代理 openai 请求",
+			"file":"nginxProxyOpenaiRequest.md",
+			"time": "2024-03-14"
+		},
+		{
 			"classfiy": "ffmpeg",
 			"title": "ffmpeg 实现 mp4 转直播推流 & 拉留转推",
 			"file":"ffmpegLivePush.md",
