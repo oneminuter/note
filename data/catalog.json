@@ -2,10 +2,17 @@
 	"list":[
 		{
 			"classfiy": "ffmpeg",
+			"title": "ffmpeg 合并视频和音频",
+			"file":"mergeVideoAndAudioWithFFmpeg.md",
+			"time": "2024-06-06"
+		},
+		{
+			"classfiy": "ffmpeg",
 			"title": "ffmpeg 分割视频",
 			"file":"splitVideoWithFfmpeg.md",
 			"time": "2024-06-02"
-		},{
+		},
+		{
 			"classfiy": "nginx",
 			"title": "使用 nginx 代理 openai 请求",
 			"file":"nginxProxyOpenaiRequest.md",
