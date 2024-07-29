@@ -54,11 +54,12 @@ for (( i=0; i<$num_files; i++ )); do
     if [ -f "$filename" ]; then  
         # 使用 ffmpeg 添加水印  
         # 这里假设你想在视频的右上角添加水印  
-        # -vf "drawtext=text='第%d段':x=10:y=10:fontsize=24:fontcolor=white:box=1:boxcolor=0x00000080"  
+        # -vf "drawtext=fontfile=/Users/oneminuter/Library/Fonts/微软雅黑.ttf:text='第%d段':x=10:y=10:fontsize=24:fontcolor=white:box=1:boxcolor=0x00000080"  
         # 注意：%d 在这里不会直接替换为 i 的值，因为它在 filter_complex 中被处理  
         # 我们需要使用 -vf_args 来传递动态参数，但 FFmpeg 并不直接支持这种方式  
-        # 因此，我们使用 printf 来构造完整的命令  
-        ffmpeg_cmd="ffmpeg -i \"$filename\" -vf \"drawtext=text='第${i}段':x=10:y=10:fontsize=24:fontcolor=white:box=1:boxcolor=0x00000080\" -codec:a copy output_with_watermark_${i}.mp4"  
+        # fontfile 指定使用的字体文件路径，要不然使用默认的可能会乱码
+        # 因此，我们使用 printf 来构造完整的命令
+        ffmpeg_cmd="ffmpeg -i \"$filename\" -vf \"drawtext=fontfile=/Users/oneminuter/Library/Fonts/微软雅黑.ttf:text='第${i}段':x=10:y=10:fontsize=24:fontcolor=white:box=1:boxcolor=0x00000080\" -codec:a copy output_with_watermark_${i}.mp4"  
         echo "Running: $ffmpeg_cmd"  
         eval "$ffmpeg_cmd"  
     fi  
