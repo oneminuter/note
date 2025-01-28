@@ -10,6 +10,9 @@ map $http_Authorization $apiKey {
     custom_key "sk-***Cn";		# custom_key 可以自定义名，前端传过来时需要与此对应
 }
 
+resolver 8.8.8.8;
+proxy_ssl_server_name on; # 防止 ssl 握手失败
+
 server {
     listen       80;
     server_name  [***].com; # 代理域名

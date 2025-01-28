@@ -1,12 +1,6 @@
 {
 	"list":[
 		{
-			"classfiy": "wepay",
-			"title": "查看证书序列号",
-			"file":"getCertSerial.md",
-			"time": "2024-10-21"
-		},
-		{
 			"classfiy": "ffmpeg",
 			"title": "ffmpeg 合并视频和音频",
 			"file":"mergeVideoAndAudioWithFFmpeg.md",
