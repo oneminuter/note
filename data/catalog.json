@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "react",
+			"title": "通过自定义环境变量使打包后请求不同后端域名路径",
+			"file":"reqBackendApiHostWithCustomerEnvVar.md",
+			"time": "2025-03-05"
+		},
+		{
 			"classfiy": "ffmpeg",
 			"title": "ffmpeg 合并视频和音频",
 			"file":"mergeVideoAndAudioWithFFmpeg.md",
