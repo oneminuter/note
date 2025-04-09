@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "tar",
+			"title": "解决 ssh 远程服务器使用 tar warning 提醒报错",
+			"file":"fixTarCmdWarnWithSSH.md",
+			"time": "2025-04-09"
+		},
+		{
 			"classfiy": "openssl",
 			"title": "openssl生成密钥对",
 			"file":"opensslGenPrivatePulishKey.md",
