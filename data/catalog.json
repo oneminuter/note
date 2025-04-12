@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "linux 免密切换到公共用户",
+			"file":"linuxSuUserIgnorePasswd.md",
+			"time": "2025-04-12"
+		},
+		{
 			"classfiy": "tar",
 			"title": "解决 ssh 远程服务器使用 tar warning 提醒报错",
 			"file":"fixTarCmdWarnWithSSH.md",
