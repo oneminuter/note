@@ -18,9 +18,9 @@ useradd dev -g dev -m -s /bin/bash
 
 ## 禁用 dev 通过 ssh 登录
 
-### 方式一：通过SSH配置文件禁止
+### 通过SSH配置文件禁止
 
-#### 修改 *etc/ssh/sshd_config* 文件，在文件最后加上
+#### 修改 */etc/ssh/sshd_config* 文件，在文件最后加上
 ```
 DenyUsers dev
 ```
@@ -33,16 +33,14 @@ systemctl restart sshd
 systemctl restart ssh
 ```
 
-### 方式二：将用户的Shell设置为不可用的Shell
-```
-usermod -s /sbin/nologin dev
-```
-此方法会禁止所有形式的登录（包括SSH和本地登录），但其他用户仍可以通过 su 命令切换到 dev 用户（因为 su 不依赖登录Shell）
-
 
 ## 配置用户免密切换到 dev
-编辑 PAM 配置文件 */etc/pam.d/su* 加入下面两行
+编辑 PAM 配置文件 */etc/pam.d/su* 加入下面两行, 推荐位置（在 pam_rootok.so 之后，其他规则前）
 ```
+# 允许root直接切换
+auth       sufficient pam_rootok.so
+
+# === 添加以下两行规则 ===
 auth [success=ignore default=1] pam_succeed_if.so user = dev
 auth sufficient pam_succeed_if.so use_uid user ingroup dev
 ```
