@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "mysql",
+			"title": "mysql 数据导入导出",
+			"file":"mysqlDumpAndImport.md",
+			"time": "2025-07-11"
+		},
+		{
 			"classfiy": "linux",
 			"title": "linux 免密切换到公共用户",
 			"file":"linuxSuUserIgnorePasswd.md",
