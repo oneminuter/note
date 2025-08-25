@@ -46,4 +46,15 @@ auth sufficient pam_succeed_if.so use_uid user ingroup dev
 ```
 规则解释：
 第1行：检查目标用户是否为 dev，如果是则跳过后续规则。  
-第2行：检查当前用户是否属于 dev 组，如果是则允许免密切换。  
+第2行：检查当前用户是否属于 dev 组，如果是则允许免密切换。 
+
+## 配置 dev 用户无密码切 root
+编辑 /etc/sudoers 或者执行 visudo
+```shell
+# Allow members of group sudo to execute any command
+%sudo	ALL=(ALL:ALL) ALL
+
+# 加入此行
+dev     ALL=(ALL) NOPASSWD:ALL
+
+```
