@@ -32,3 +32,13 @@ mongoexport 和 mongoimport 需要指定表才能导入导出，并且不能导�
 ./mongorestore --host=localhost --port=27017 --username=root --password=test1234 --authenticationDatabase=admin --db=live --gzip --archive=./db.backup.gz
 ```
 `--drop` 参数是在导入前先删除对应表
+
+### 新版本提示不能使用 --db 参数
+```
+./mongorestore --host=localhost --port=27017 --username=root --password=test1234 --authenticationDatabase=admin --nsInclude='live.*' --gzip --archive=./db.backup.gz
+```
+
+## 如果使用 mongorestore 导入到其他目标库
+```
+./mongorestore --host=localhost --port=27017 --username=root --password=test1234 --authenticationDatabase=admin --nsFrom='live.*' --nsTo='new_live.*' --gzip --archive=./db.backup.gz
+```
