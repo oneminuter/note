@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "systemd",
+			"title": "使用 systemd 部署应用程序",
+			"file":"runApplicationWithSystemd.md",
+			"time": "2026-01-05"
+		},
+		{
 			"classfiy": "python",
 			"title": "conda 命令使用",
 			"file":"condaCmdUse.md",
