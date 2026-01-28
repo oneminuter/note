@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "certbot",
+			"title": "使用 certbot 安装 https 所需 ssl 证书",
+			"file":"installSSLWithCertbot.md",
+			"time": "2026-01-28"
+		},
+		{
 			"classfiy": "systemd",
 			"title": "使用 systemd 部署应用程序",
 			"file":"runApplicationWithSystemd.md",
