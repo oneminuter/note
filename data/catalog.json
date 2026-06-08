@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "ffmpeg",
+			"title": "ffmpeg 压缩 MP4 视频大小",
+			"file":"compressVideoByFfmpeg.md",
+			"time": "2026-06-08"
+		},
+		{
 			"classfiy": "certbot",
 			"title": "使用 certbot 安装 https 所需 ssl 证书",
 			"file":"installSSLWithCertbot.md",
