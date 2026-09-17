@@ -1,6 +1,12 @@
 {
 	"list":[
 		{
+			"classfiy": "linux",
+			"title": "trojan 自建代理",
+			"file":"selfProxyWithTrojan.md",
+			"time": "2026-09-17"
+		},
+		{
 			"classfiy": "ffmpeg",
 			"title": "ffmpeg 压缩 MP4 视频大小",
 			"file":"compressVideoByFfmpeg.md",
